@@ -5,5 +5,4 @@
 *.egg-info
 dist
 build
-.idea
-.idea/workspace.xml
+.idea/

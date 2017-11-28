@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1b1efd86-5f1b-4e71-9d7b-062a4862424c" name="Default" comment="initial commit">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="microblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,14 +29,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5564516">
-              <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3548387">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -65,6 +76,7 @@
         <option value="$PROJECT_DIR$/app/config.py" />
         <option value="$PROJECT_DIR$/app/__init__.py" />
         <option value="$PROJECT_DIR$/app/views.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -134,7 +146,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="commi&#9;ACTION&#9;CheckinProject&#10;commit&#9;ACTION&#9;CheckinProject&#10;pull&#9;ACTION&#9;Vcs.UpdateProject&#10;__ini&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/__init__.py&#10;login&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/templates/login.html&#10;confi&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/config.py&#10;views&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/views.py&#10;config&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/config.py&#10;view&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/views.py" />
+    <property name="SearchEverywhereHistoryKey" value="commit&#9;ACTION&#9;CheckinProject&#10;pull&#9;ACTION&#9;Vcs.UpdateProject&#10;commi&#9;ACTION&#9;CheckinProject&#10;__ini&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/__init__.py&#10;login&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/templates/login.html&#10;confi&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/config.py&#10;views&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/views.py&#10;config&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/config.py&#10;view&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/views.py" />
   </component>
   <component name="RunManager" selected="Python.run">
     <configuration default="false" name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -394,7 +406,19 @@
       <option name="project" value="LOCAL" />
       <updated>1511867610586</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1511867649461</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1511867649461</updated>
+    </task>
+    <task id="LOCAL-00004" summary="initial commit">
+      <created>1511867661623</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1511867661623</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -530,11 +554,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5564516">
-          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3548387">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
