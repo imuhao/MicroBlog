@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 2017/11/29 09:40
+# @Author  : Smile
+# @Describe: 数据库视图
+
 from app import app
 from flask import render_template, redirect, flash
 from .forms import LoginFrom
@@ -35,4 +41,3 @@ def login():
                            form=form,
                            providers=app.config["OPENID_PROVIDERS"]
                            )
-
