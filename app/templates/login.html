@@ -20,7 +20,7 @@
     <form action="" method="post" name="login">
         {{ form.hidden_tag() }}
         <p>
-            Please enter your OpenID:<br>
+            {#Please enter your OpenID:<br>
             {{ form.openid(size=80) }}<br>
 
             {% for error in form.openid.errors %}
@@ -29,11 +29,22 @@
 
             |{% for pr in providers %}
             <a href="javascript:set_openid('{{ pr.url }}', '{{ pr.name }}');">{{ pr.name }}</a> |
-        {% endfor %}
+            {% endfor %}#}
+
+            Please enter your nickname:<br>
+            {{ form.nickname(size=80) }}<br>
+
+            Please enter your password:<br>
+            {{ form.password(size=80) }}<br>
+
         </p>
 
-    
         <p>{{ form.remember_me }} Remember Me</p>
-        <p><input type="submit" value="Sign In"></p>
+
+        {{ form.sign_in() }}
+        {{ form.register() }}
+
+        {#<p><input type="submit" value="Sign In">
+            <input type="submit" value="Register"></p>#}
     </form>
 {% endblock %}
