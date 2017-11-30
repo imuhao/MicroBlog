@@ -2,12 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b1efd86-5f1b-4e71-9d7b-062a4862424c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.db" afterPath="$PROJECT_DIR$/app/app.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/htmlfiles/keybd_closed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/htmlfiles/keybd_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/db_repository/versions/003_migration.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/db_repository/versions/004_migration.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/db_repository/versions/005_migration.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/db_repository/versions/006_migration.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/bin/coverage" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/bin/coverage-3.6" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/bin/coverage3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage-4.4.2.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage-4.4.2.dist-info/INSTALLER" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage-4.4.2.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage-4.4.2.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage-4.4.2.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage-4.4.2.dist-info/entry_points.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage-4.4.2.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage-4.4.2.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/__main__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/annotate.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/backunittest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/backward.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/bytecode.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/cmdline.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/collector.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/control.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/debug.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/env.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/execfile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/files.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/fullcoverage/encodings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/html.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/htmlfiles/coverage_html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/htmlfiles/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/htmlfiles/jquery.ba-throttle-debounce.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/htmlfiles/jquery.hotkeys.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/htmlfiles/jquery.isonscreen.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/htmlfiles/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/htmlfiles/jquery.tablesorter.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/htmlfiles/pyfile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/htmlfiles/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/misc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/multiproc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/parser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/phystokens.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/pickle2json.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/plugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/plugin_support.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/python.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/pytracer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/report.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/results.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/summary.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/templite.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/version.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/coverage/xmlreport.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/forms.py" afterPath="$PROJECT_DIR$/app/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models.py" afterPath="$PROJECT_DIR$/app/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/index.html" afterPath="$PROJECT_DIR$/app/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/login.html" afterPath="$PROJECT_DIR$/app/templates/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views.py" afterPath="$PROJECT_DIR$/app/views.py" />
     </list>
     <ignored path="microblog.iws" />
@@ -41,11 +94,11 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.833713">
-              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.72195894">
+              <caret line="127" column="28" selection-start-line="127" selection-start-column="28" selection-end-line="127" selection-end-column="28" />
               <folding>
                 <element signature="e#115#147#0" expanded="true" />
-                <marker date="1512012747000" expanded="true" signature="2798:3585" placeholder="..." />
+                <marker date="1512020619000" expanded="true" signature="2798:3585" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -218,7 +271,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="commit&#9;ACTION&#9;CheckinProject&#10;User&#9;null&#9;null&#10;for&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/forms.py&#10;mod&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/models.py&#10;view&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/views.py&#10;views&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/views.py&#10;login&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/templates/login.html&#10;comm&#9;ACTION&#9;CheckinProject&#10;mo&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/models.py&#10;base&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/templates/base.html&#10;__init&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/__init__.py&#10;__in&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/__init__.py&#10;Use&#9;null&#9;null&#10;__ini&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/__init__.py&#10;pull&#9;ACTION&#9;Vcs.UpdateProject&#10;__&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/__init__.py&#10;db_upgrade&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/db_upgrade.py&#10;config&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/config.py&#10;commi&#9;ACTION&#9;CheckinProject&#10;confi&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/config.py" />
+    <property name="SearchEverywhereHistoryKey" value="commit&#9;ACTION&#9;CheckinProject&#10;pull&#9;ACTION&#9;Vcs.UpdateProject&#10;User&#9;null&#9;null&#10;for&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/forms.py&#10;mod&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/models.py&#10;view&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/views.py&#10;views&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/views.py&#10;login&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/templates/login.html&#10;comm&#9;ACTION&#9;CheckinProject&#10;mo&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/models.py&#10;base&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/templates/base.html&#10;__init&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/__init__.py&#10;__in&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/__init__.py&#10;Use&#9;null&#9;null&#10;__ini&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/__init__.py&#10;__&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/__init__.py&#10;db_upgrade&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/db_upgrade.py&#10;config&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/config.py&#10;commi&#9;ACTION&#9;CheckinProject&#10;confi&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/config.py" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -618,7 +671,13 @@
       <option name="project" value="LOCAL" />
       <updated>1512007428376</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="register and login">
+      <created>1512012792479</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1512012792479</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -642,13 +701,13 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29705507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22663252" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11907811" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09942775" sideWeight="0.49384615" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16738197" sideWeight="0.5061538" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3674776" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3674776" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -673,7 +732,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="user info" />
-    <option name="LAST_COMMIT_MESSAGE" value="user info" />
+    <MESSAGE value="register and login" />
+    <option name="LAST_COMMIT_MESSAGE" value="register and login" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -991,11 +1051,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.833713">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.72195894">
+          <caret line="127" column="28" selection-start-line="127" selection-start-column="28" selection-end-line="127" selection-end-column="28" />
           <folding>
             <element signature="e#115#147#0" expanded="true" />
-            <marker date="1512012747000" expanded="true" signature="2798:3585" placeholder="..." />
+            <marker date="1512020619000" expanded="true" signature="2798:3585" placeholder="..." />
           </folding>
         </state>
       </provider>

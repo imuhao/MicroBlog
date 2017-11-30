@@ -124,11 +124,16 @@ def logout():
 @app.before_request
 def before_request():
     g.nickname = session['nickname']
-    g.user = User.query.filter_by(nickname=g.nickname).first()
+
+    if (g.nickname is None):
+        g.user = User.query.filter_by(nickname=g.nickname).first()
 
 
 @app.route("/user/<nickname>")
 def user(nickname):
+    if not nickname == session['nickname']:
+        return redirect(url_for('login'))
+
     user = User.query.filter_by(nickname=nickname).first()
     if user == None:
         return redirect(url_for('index'))
