@@ -4,7 +4,7 @@
     <h1>Hi {{ user.nickname }} !</h1>
 
     {% for post in posts %}
-        <div><p>{{ post.author.nickname }} say: {{ post.body }}</p></div>
+        {% include 'post.html' %}
     {% endfor %}
 
 {% endblock %}

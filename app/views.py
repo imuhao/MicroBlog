@@ -3,32 +3,32 @@
 # @Time    : 2017/11/29 09:40
 # @Author  : Smile
 # @Describe: 数据库视图
+from datetime import datetime
 
 from app import app, db, lm, oid
 from flask import render_template, redirect, flash, session, url_for, g, request
-from .forms import LoginFrom
+from .forms import LoginFrom, EditForm
 
-from flask_login import login_user, logout_user, current_user, login_required
 from .models import User
 
 
 @app.route('/')
 @app.route('/index')
 def index():
-    nickname = session['nickname']
-    user = g.user
-
+    nickname = session.get('nickname', None)
     # 没有登录
-    if user is None:
+    if nickname is None:
         return redirect(url_for('login'))
+
+    user = g.user
 
     posts = [
         {
-            'author': {'nickname': 'John'},
+            'author': {'nickname': 'John', 'avatar': '/static/smile_avatar.jpg'},
             'body': 'Beautiful day in Portland!'
         },
         {
-            'author': {'nickname': 'Susan'},
+            'author': {'nickname': 'Susan', 'avatar': '/static/smile_avatar.jpg'},
             'body': 'The Avengers movie was so cool!'
         }
     ]
@@ -68,7 +68,6 @@ def login():
         session['nickname'] = user.nickname
         session['email'] = user.email
         return redirect(url_for('index'))
-        # return oid.try_login(form.openid.data, ask_for=['nickname', 'email'])
 
     # 注册
     if form.register.data and form.is_submitted():
@@ -123,10 +122,14 @@ def logout():
 # 在每一个请求之前调用
 @app.before_request
 def before_request():
-    g.nickname = session['nickname']
-
-    if (g.nickname is None):
-        g.user = User.query.filter_by(nickname=g.nickname).first()
+    nickname = session.get('nickname', None)
+    if nickname is not None:
+        g.nickname = nickname
+        g.user = User.query.filter_by(nickname=nickname).first()
+        if g.user.is_authenticated():
+            g.user.last_seen = datetime.utcnow()
+            db.session.add(g.user)
+            db.session.commit()
 
 
 @app.route("/user/<nickname>")
@@ -141,4 +144,21 @@ def user(nickname):
         {'author': user, 'body': 'Test post #1'},
         {'author': user, 'body': 'Test post #2'}
     ]
-    return render_template('user.html', user=user, posts=posts)
+    return render_template('user.html', title=user.nickname + '- User Info', user=user, posts=posts)
+
+
+@app.route("/edit", methods=['GET', 'POST'])
+def edit():
+    form = EditForm()
+
+    if form.validate_on_submit():
+        g.user.nickname = form.nickname.data
+        g.user.about_me = form.about_me.data
+        db.session.add(g.user)
+        db.session.commit()
+        return redirect(url_for('user', nickname=g.user.nickname))
+    else:
+        form.nickname.data = g.user.nickname
+        form.about_me.data = g.user.about_me
+
+    return render_template('edit.html', form=form)

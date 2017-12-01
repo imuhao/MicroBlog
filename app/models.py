@@ -13,8 +13,14 @@ class User(db.Model):
     password = db.Column(db.String(64), index=True)
     email = db.Column(db.String(120), index=True, unique=True)
     posts = db.relationship('Post', backref='author', lazy='dynamic')
+    about_me = db.Column(db.String(140))
+    last_seen = db.Column(db.DateTime)
 
-    # 用户对象是否可以认证
+    def avatar(self):
+        return '/static/smile_avatar.jpg'
+
+        # 用户对象是否可以认证
+
     def is_authenticated(self):
         return True
 
