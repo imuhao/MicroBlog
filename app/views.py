@@ -12,16 +12,25 @@ from .forms import LoginFrom, EditForm
 from .models import User
 
 
+def need_login(func):
+    def wrapper(*args, **kw):
+        nickname = session.get('nickname', None)
+        # 没有登录
+        if nickname is None:
+            redirect(url_for('login'))
+
+        return func(*args, **kw)
+
+    return wrapper
+
+
 @app.route('/')
 @app.route('/index')
 def index():
-    nickname = session.get('nickname', None)
     # 没有登录
-    if nickname is None:
+    if session.get('nickname', None) is None:
         return redirect(url_for('login'))
-
     user = g.user
-
     posts = [
         {
             'author': {'nickname': 'John', 'avatar': '/static/smile_avatar.jpg'},
@@ -58,7 +67,7 @@ def login():
         password = form.password.data
         user = User.query.filter_by(nickname=nickname).first()
         if user == None:
-            flash("Your must fist register you nickname")
+            flash("Your must first register you nickname")
             return redirect(url_for('login'))
 
         if (not user.verify(password)):
@@ -91,26 +100,6 @@ def login():
                            )
 
 
-# @oid.after_login
-# def after_login(resp):
-#     if resp.email is None or resp.email == "":
-#         flash('Invalid login. Please try again.')
-#         return redirect(url_for('login'))
-#     user = User.query.filter_by(email=resp.email).first()
-#     if user is None:
-#         nickname = resp.nickname
-#         if nickname is None or nickname == "":
-#             nickname = resp.email.split('@')[0]
-#         user = User(nickname=nickname, email=resp.email)
-#         db.session.add(user)
-#         db.session.commit()
-#     remember_me = False
-#     if 'remember_me' in session:
-#         remember_me = session['remember_me']
-#         session.pop('remember_me', None)
-#     login_user(user, remember=remember_me)
-#     return redirect(request.args.get('next') or url_for('index'))
-
 # 退出登录
 @app.route("/logout")
 def logout():
@@ -126,7 +115,7 @@ def before_request():
     if nickname is not None:
         g.nickname = nickname
         g.user = User.query.filter_by(nickname=nickname).first()
-        if g.user.is_authenticated():
+        if g.user is not None and g.user.is_authenticated():
             g.user.last_seen = datetime.utcnow()
             db.session.add(g.user)
             db.session.commit()
@@ -162,3 +151,14 @@ def edit():
         form.about_me.data = g.user.about_me
 
     return render_template('edit.html', form=form)
+
+
+@app.errorhandler(404)
+def internal_error(error):
+    return render_template("404.html"), 404
+
+
+@app.errorhandler(500)
+def internal_error(error):
+    db.session.rollback()
+    return render_template("505.html"),505
