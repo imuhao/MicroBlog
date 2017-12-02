@@ -9,6 +9,7 @@ from flask_login import UserMixin
 from app import lm
 
 
+# 用户模型
 class User(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
     nickname = db.Column(db.String(64), index=True, unique=True)
@@ -23,14 +24,10 @@ class User(UserMixin, db.Model):
         return self.password == password
 
     def __repr__(self):
-        return '<User %r>' % (self.nickname)
+        return '<User %r>' % self.nickname
 
 
-@lm.user_loader
-def load_user(id):
-    return User.query.get(int(id))
-
-
+# 文章模型
 class Post(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     body = db.Column(db.String(140))
@@ -38,4 +35,14 @@ class Post(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
 
     def __repr__(self):
-        return '<Post %r>' % (self.body)
+        return '<Post %r>' % self.body
+
+
+# 关注模型
+
+
+
+# LoadManager 用来获取 User
+@lm.user_loader
+def load_user(id):
+    return User.query.get(int(id))

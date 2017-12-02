@@ -3,6 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
 from .config import basediir
 from .logger import init_logger
+from app import config
 
 app = Flask(__name__)
 app.config.from_object("config")
