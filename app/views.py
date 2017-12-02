@@ -91,7 +91,7 @@ def logout():
 @app.before_request
 def before_request():
     if current_user is not None and current_user.is_authenticated:
-        current_user.last_seen = datetime.utcnow()
+        current_user.last_seen = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         db.session.add(current_user)
         db.session.commit()
 

@@ -6,6 +6,8 @@
 
 def main():
     from app import db, models
+    from app.models import *
+
 
     # 添加用户
     # u = models.User(nickname='caimuhao', email='caimuhao2@gmail.com')
@@ -21,6 +23,11 @@ def main():
     # db.session.add(p)
     # db.session.commit()
     # print(u.posts.all())
+
+    user = User.query.get(1)
+    # post = Post('body3', user)
+    # db.session.add(post)
+    # db.session.commit()
 
 
 if __name__ == '__main__':
