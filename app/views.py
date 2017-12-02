@@ -5,32 +5,19 @@
 # @Describe: 数据库视图
 from datetime import datetime
 
-from app import app, db, lm, oid
-from flask import render_template, redirect, flash, session, url_for, g, request
+from app import app, db, lm
+from flask import render_template, redirect, flash, session, url_for, g, request, abort
 from .forms import LoginFrom, EditForm
+from flask_login import login_user, current_user, logout_user, login_required
 
 from .models import User
 
 
-def need_login(func):
-    def wrapper(*args, **kw):
-        nickname = session.get('nickname', None)
-        # 没有登录
-        if nickname is None:
-            redirect(url_for('login'))
-
-        return func(*args, **kw)
-
-    return wrapper
-
-
 @app.route('/')
 @app.route('/index')
+@login_required
 def index():
-    # 没有登录
-    if session.get('nickname', None) is None:
-        return redirect(url_for('login'))
-    user = g.user
+    user = current_user
     posts = [
         {
             'author': {'nickname': 'John', 'avatar': '/static/smile_avatar.jpg'},
@@ -48,35 +35,27 @@ def index():
 
 
 @app.route("/login", methods=['GET', 'POST'])
-# @oid.loginhandler
 def login():
     # 自动登录
-    if g.user is not None and g.user.is_authenticated:
+    if current_user is not None and current_user.is_authenticated:
         return redirect(url_for('index'))
-    form = LoginFrom()
 
-    print(session['remember_me'])
-    print(session['nickname'])
-    if session['remember_me'] == True and not session['nickname'] == None:
-        return redirect(url_for('index'))
+    form = LoginFrom()
 
     # 登录
     if form.sign_in.data and form.is_submitted():
-        session['remember_me'] = form.remember_me.data
+
         nickname = form.nickname.data
         password = form.password.data
         user = User.query.filter_by(nickname=nickname).first()
-        if user == None:
-            flash("Your must first register you nickname")
+
+        if user == None or not user.verify(password):
+            flash(" Account or password error!")
             return redirect(url_for('login'))
 
-        if (not user.verify(password)):
-            flash("Your password is mistake")
-            return redirect(url_for('login'))
-
-        session['nickname'] = user.nickname
-        session['email'] = user.email
-        return redirect(url_for('index'))
+        login_user(user, remember=form.remember_me.data)
+        next = request.args.get('next')
+        return redirect(next or url_for('index'))
 
     # 注册
     if form.register.data and form.is_submitted():
@@ -90,11 +69,11 @@ def login():
         u = User(nickname=nickname, password=password)
         db.session.add(u)
         db.session.commit()
-        flash("Register success")
+        flash("Register Success!")
         return redirect(url_for('login'))
 
     return render_template('login.html',
-                           title="Sign In",
+                           title="Login or Register",
                            form=form,
                            providers=app.config["OPENID_PROVIDERS"]
                            )
@@ -102,33 +81,24 @@ def login():
 
 # 退出登录
 @app.route("/logout")
+@login_required
 def logout():
-    session['nickname'] = None
-    g.user = None
+    logout_user()
     return redirect(url_for("index"))
 
 
 # 在每一个请求之前调用
 @app.before_request
 def before_request():
-    nickname = session.get('nickname', None)
-    if nickname is not None:
-        g.nickname = nickname
-        g.user = User.query.filter_by(nickname=nickname).first()
-        if g.user is not None and g.user.is_authenticated():
-            g.user.last_seen = datetime.utcnow()
-            db.session.add(g.user)
-            db.session.commit()
+    if current_user is not None and current_user.is_authenticated:
+        current_user.last_seen = datetime.utcnow()
+        db.session.add(current_user)
+        db.session.commit()
 
 
 @app.route("/user/<nickname>")
 def user(nickname):
-    if not nickname == session['nickname']:
-        return redirect(url_for('login'))
-
     user = User.query.filter_by(nickname=nickname).first()
-    if user == None:
-        return redirect(url_for('index'))
     posts = [
         {'author': user, 'body': 'Test post #1'},
         {'author': user, 'body': 'Test post #2'}
@@ -137,18 +107,19 @@ def user(nickname):
 
 
 @app.route("/edit", methods=['GET', 'POST'])
+@login_required
 def edit():
     form = EditForm()
 
     if form.validate_on_submit():
-        g.user.nickname = form.nickname.data
-        g.user.about_me = form.about_me.data
-        db.session.add(g.user)
+        current_user.nickname = form.nickname.data
+        current_user.about_me = form.about_me.data
+        db.session.add(current_user.user)
         db.session.commit()
-        return redirect(url_for('user', nickname=g.user.nickname))
+        return redirect(url_for('user', nickname=current_user.nickname))
     else:
-        form.nickname.data = g.user.nickname
-        form.about_me.data = g.user.about_me
+        form.nickname.data = current_user.nickname
+        form.about_me.data = current_user.about_me
 
     return render_template('edit.html', form=form)
 
@@ -161,4 +132,4 @@ def internal_error(error):
 @app.errorhandler(500)
 def internal_error(error):
     db.session.rollback()
-    return render_template("505.html"),505
+    return render_template("505.html"), 505

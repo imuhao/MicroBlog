@@ -5,17 +5,19 @@
 # @Describe: 表单
 
 from flask_wtf import Form
-from wtforms import StringField, BooleanField, SubmitField, TextAreaField
-from wtforms.validators import DataRequired, Length
+from wtforms import StringField, BooleanField, SubmitField, TextAreaField, PasswordField
+from wtforms.validators import DataRequired, Length, Regexp
 
 
+# 密码长度在6-12
 class LoginFrom(Form):
-    # openid = StringField('openid', validators=[DataRequired()])
-
     nickname = StringField('nickname', validators=[DataRequired()])
-    password = StringField('password', validators=[DataRequired()])
+    password = PasswordField('password',
+                             validators=[DataRequired(message=u"Password length is 6 to 12!"), Length(6, 12)])
+
     remember_me = BooleanField('remember_me', default=False)
-    sign_in = SubmitField('SignIn')
+
+    sign_in = SubmitField('Login')
     register = SubmitField('Register')
 
 

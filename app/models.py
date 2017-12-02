@@ -5,9 +5,11 @@
 # @Describe: 数据库模型
 
 from  app import db
+from flask_login import UserMixin
+from app import lm
 
 
-class User(db.Model):
+class User(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
     nickname = db.Column(db.String(64), index=True, unique=True)
     password = db.Column(db.String(64), index=True)
@@ -21,25 +23,16 @@ class User(db.Model):
 
         # 用户对象是否可以认证
 
-    def is_authenticated(self):
-        return True
-
-    # 用户是否可用
-    def is_active(self):
-        return True
-
-    # 是否是伪造用户
-    def is_anonymous(self):
-        return False
-
-    def get_id(self):
-        return str(self.id)
-
     def verify(self, password):
         return self.password == password
 
     def __repr__(self):
         return '<User %r>' % (self.nickname)
+
+
+@lm.user_loader
+def load_user(id):
+    return User.query.get(int(id))
 
 
 class Post(db.Model):

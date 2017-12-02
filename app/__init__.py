@@ -1,7 +1,6 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
-from flask_openid import OpenID
 from .config import basediir
 import os
 
@@ -12,6 +11,10 @@ db = SQLAlchemy(app)
 lm = LoginManager()
 lm.init_app(app)
 lm.login_view = 'login'
-oid = OpenID(app, os.path.join(basediir, 'tmp'))
+# 未登录时提示消息
+lm.login_message = "Please login to access this page"
+lm.login_message_category = "info"
+# 会话保护
+lm.session_protection = "strong"
 
 from app import views, models
