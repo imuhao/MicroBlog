@@ -2,7 +2,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
 from .config import basediir
-import os
+from .logger import init_logger
 
 app = Flask(__name__)
 app.config.from_object("config")
@@ -18,3 +18,6 @@ lm.login_message_category = "info"
 lm.session_protection = "strong"
 
 from app import views, models
+
+# 错误记录
+init_logger()
