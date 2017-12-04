@@ -7,7 +7,7 @@
 import imp
 from migrate.versioning import api
 
-from .. import db
+from app import db
 
 # from app import db
 from app.config import SQLALCHEMY_DATABASE_URI

@@ -8,6 +8,12 @@ from  app import db
 from flask_login import UserMixin
 from app import lm
 
+# 关注未关注多对多表
+followers = db.Table('followers',
+                     db.Column('follower_id', db.Integer, db.ForeignKey('user.id')),
+                     db.Column('followed_id', db.Integer, db.ForeignKey('user.id'))
+                     )
+
 
 # 用户模型
 class User(UserMixin, db.Model):
@@ -18,8 +24,14 @@ class User(UserMixin, db.Model):
     about_me = db.Column(db.String(140))
     last_seen = db.Column(db.DateTime)
     avatar = db.Column(db.String(120))
-
     posts = db.relationship('Post', backref='author', lazy='dynamic')
+
+    followed = db.relationship('User',
+                               secondary=followers,
+                               primaryjoin=(followers.c.follower_id == id),
+                               secondaryjoin=(followers.c.followed_id == id),
+                               backref=db.backref('followers', lazy='dynamic'),
+                               lazy='dynamic')
 
     def __init__(self, nickname, password, email, avatar=None, about_me=None):
         if about_me is None: about_me = 'Hello World!'
@@ -33,6 +45,23 @@ class User(UserMixin, db.Model):
 
     def verify(self, password):
         return self.password == password
+
+    def follow(self, user):
+        if not self.is_following(user):
+            self.followed.append(user)
+            return self
+
+    def unfollow(self, user):
+        if self.is_following(user):
+            self.followed.remove(user)
+            return self
+
+    def is_following(self, user):
+        return self.followed.filter(followers.c.followed_id == user.id).count() > 0
+
+    def followed_posts(self):
+        return Post.query.join(followers, (followers.c.followed_id == Post.user_id)).filter(
+            followers.c.follower_id == self.id).order_by(Post.timestamp.desc())
 
     def __repr__(self):
         return '<User %r>' % self.nickname
@@ -49,7 +78,7 @@ class Post(db.Model):
         self.body = body
         if timestamp == None:
             from datetime import datetime
-            self.timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            self.timestamp = datetime.now()
         else:
             self.timestamp = timestamp
         self.author = user

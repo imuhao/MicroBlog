@@ -53,6 +53,10 @@ def login():
             flash(" Account or password error!")
             return redirect(url_for('login'))
 
+        # 自己添加自己为关注
+        db.session.add(user.follow(user))
+        db.session.commit()
+
         login_user(user, remember=form.remember_me.data)
         next = request.args.get('next')
         return redirect(next or url_for('index'))
@@ -91,14 +95,18 @@ def logout():
 @app.before_request
 def before_request():
     if current_user is not None and current_user.is_authenticated:
-        current_user.last_seen = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        current_user.last_seen = datetime.now()
         db.session.add(current_user)
         db.session.commit()
 
 
+@login_required
 @app.route("/user/<nickname>")
 def user(nickname):
     user = User.query.filter_by(nickname=nickname).first()
+    if user == None:
+        return abort(404)
+
     posts = [
         {'author': user, 'body': 'Test post #1'},
         {'author': user, 'body': 'Test post #2'}
@@ -122,6 +130,52 @@ def edit():
         form.about_me.data = current_user.about_me
 
     return render_template('edit.html', form=form)
+
+
+# 关注用户
+@app.route("/follow/<nickname>")
+def follow(nickname):
+    u = User.query.filter_by(nickname=nickname).first()
+    if u == None:
+        flash("User %s not found ." % (nickname))
+        return redirect(url_for('user', nickname=nickname))
+
+    if u == current_user:
+        flash("Your can\`t follow yourself!")
+        return redirect(url_for('user', nickname=nickname))
+
+    follow_user = current_user.follow(u)
+
+    if follow_user == None:
+        flash("follow error!")
+        return redirect(url_for('user', nickname=nickname))
+
+    db.session.add(follow_user)
+    db.session.commit()
+    flash("you are following %s success!" % (nickname))
+
+    return redirect(url_for('user', nickname=nickname))
+
+
+# 取消关注
+@app.route("/unfollow/<nickname>")
+def unfollow(nickname):
+    u = User.query.filter_by(nickname=nickname).first()
+    if u == None:
+        flash("User %s not fount!" % nickname)
+        return redirect(url_for('user', nickname=nickname))
+
+    if current_user == u:
+        flash("Your con`t unfollow yourself!")
+        return redirect(url_for('user', nickname=nickname))
+
+    unfollow_user = current_user.unfollow(u)
+    if unfollow_user == None:
+        flash("unfollow error!")
+        return redirect(url_for('user', nickname=nickname))
+    db.session.add(unfollow_user)
+    db.session.commit()
+    return redirect(url_for('user', nickname=nickname))
 
 
 @app.errorhandler(404)
