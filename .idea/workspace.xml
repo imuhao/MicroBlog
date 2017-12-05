@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b1efd86-5f1b-4e71-9d7b-062a4862424c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.db" afterPath="$PROJECT_DIR$/app/app.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/__init__.py" afterPath="$PROJECT_DIR$/app/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/run.py" afterPath="$PROJECT_DIR$/app/run.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/microblog.log" afterPath="$PROJECT_DIR$/app/tmp/microblog.log" />
     </list>
     <ignored path="microblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,6 +29,7 @@
     <SUITE FILE_PATH="coverage/microblog$Unittests_in_TextCase.coverage" NAME="Unittests in TextCase Coverage Results" MODIFIED="1512206651241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/microblog$db_migrate.coverage" NAME="db_migrate Coverage Results" MODIFIED="1512367964146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/microblog$db_migrade.coverage" NAME="db_migrade Coverage Results" MODIFIED="1512200830437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/microblog$main.coverage" NAME="main Coverage Results" MODIFIED="1512452916525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/microblog$Unittest_TextCase_test_avatar__1_.coverage" NAME="Unittest TextCase.test_avatar (1) Coverage Results" MODIFIED="1512365485538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/microblog$Unittests_in_test.coverage" NAME="Unittests in test Coverage Results" MODIFIED="1512365660689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/microblog$Unittests_in_TextCase__3_.coverage" NAME="Unittests in TextCase (3) Coverage Results" MODIFIED="1512206650049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
@@ -47,43 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/run.py">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40325865">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#118#128#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sys.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/PyCharm50/python_stubs/1290840211/sys.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="598" column="4" selection-start-line="598" selection-start-column="0" selection-end-line="598" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flask/lib/python3.6/site-packages/flask_login/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.3478261">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -131,8 +98,9 @@
         <option value="$PROJECT_DIR$/app/templates/user.html" />
         <option value="$PROJECT_DIR$/app/views.py" />
         <option value="$PROJECT_DIR$/app/main.py" />
-        <option value="$PROJECT_DIR$/app/__init__.py" />
         <option value="$PROJECT_DIR$/app/run.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/app/__init__.py" />
       </list>
     </option>
   </component>
@@ -189,20 +157,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="microblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="microblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -216,7 +170,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="comm&#9;ACTION&#9;CheckinProject&#10;pull&#9;ACTION&#9;Vcs.UpdateProject&#10;commit&#9;ACTION&#9;CheckinProject&#10;user&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/user.html&#10;view&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;commi&#9;ACTION&#9;CheckinProject&#10;index&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;models&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py&#10;mode&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py&#10;test&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/test.py&#10;db_mi&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/database/db_migrate.py&#10;model&#9;null&#9;null&#10;post&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/post.html&#10;mod&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py&#10;views&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;__ini&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/__init__.py&#10;config&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/config.py&#10;dbtest&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/db_test.py&#10;db_test&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/db_test.py&#10;db_crea&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/db_create.py&#10;__init&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/__init__.py&#10;run&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/run.py&#10;man&#9;null&#9;null&#10;revert&#9;ACTION&#9;ChangesView.Revert&#10;012_migration&#9;null&#9;null&#10;edit&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/templates/edit.html&#10;form&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/forms.py&#10;for&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/forms.py&#10;login&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/templates/login.html&#10;__in&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/__init__.py&#10;mo&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/models.py&#10;datetime&#9;null&#9;null&#10;User&#9;null&#9;null&#10;base&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/templates/base.html&#10;Use&#9;null&#9;null&#10;__&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/__init__.py&#10;db_upgrade&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/db_upgrade.py&#10;confi&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/config.py" />
+    <property name="SearchEverywhereHistoryKey" value="comm&#9;ACTION&#9;CheckinProject&#10;__in&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/flask/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py&#10;pull&#9;ACTION&#9;Vcs.UpdateProject&#10;commit&#9;ACTION&#9;CheckinProject&#10;user&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/user.html&#10;view&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;commi&#9;ACTION&#9;CheckinProject&#10;index&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;models&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py&#10;mode&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py&#10;test&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/test.py&#10;db_mi&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/database/db_migrate.py&#10;model&#9;null&#9;null&#10;post&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/post.html&#10;mod&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py&#10;views&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;__ini&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/__init__.py&#10;config&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/config.py&#10;dbtest&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/db_test.py&#10;db_test&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/db_test.py&#10;db_crea&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/db_create.py&#10;__init&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/__init__.py&#10;run&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/run.py&#10;man&#9;null&#9;null&#10;revert&#9;ACTION&#9;ChangesView.Revert&#10;012_migration&#9;null&#9;null&#10;edit&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/templates/edit.html&#10;form&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/forms.py&#10;for&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/forms.py&#10;login&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/templates/login.html&#10;mo&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/models.py&#10;datetime&#9;null&#9;null&#10;User&#9;null&#9;null&#10;base&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/templates/base.html&#10;Use&#9;null&#9;null&#10;__&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/__init__.py&#10;db_upgrade&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/db_upgrade.py&#10;confi&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/config.py" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -228,7 +182,7 @@
       <recent name="$PROJECT_DIR$/app/script" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run">
+  <component name="RunManager" selected="Python.main">
     <configuration default="false" name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -245,29 +199,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest TextCase.test_follow" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="microblog" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/test.py" />
-      <option name="CLASS_NAME" value="TextCase" />
-      <option name="METHOD_NAME" value="test_follow" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -307,6 +238,24 @@
       <method />
     </configuration>
     <configuration default="false" name="user.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/microblog/app/templates/user.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="microblog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -523,18 +472,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.microblog" />
       <item index="1" class="java.lang.String" itemvalue="Python.run" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TextCase.test_follow" />
-      <item index="3" class="java.lang.String" itemvalue="Python.views" />
-      <item index="4" class="java.lang.String" itemvalue="Python.db_migrate" />
-      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.user.html" />
+      <item index="2" class="java.lang.String" itemvalue="Python.views" />
+      <item index="3" class="java.lang.String" itemvalue="Python.db_migrate" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.user.html" />
+      <item index="5" class="java.lang.String" itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.run" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.user.html" />
-        <item index="2" class="java.lang.String" itemvalue="Python.db_migrate" />
-        <item index="3" class="java.lang.String" itemvalue="Python.views" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TextCase.test_follow" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.run" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.user.html" />
+        <item index="3" class="java.lang.String" itemvalue="Python.db_migrate" />
+        <item index="4" class="java.lang.String" itemvalue="Python.views" />
       </list>
     </recent_temporary>
   </component>
@@ -675,7 +624,13 @@
       <option name="project" value="LOCAL" />
       <updated>1512444794105</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add requirements.txt">
+      <created>1512452718457</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1512452718457</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -728,9 +683,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3162612" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3162612" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33546734" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33546734" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13519314" sideWeight="0.49384615" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -808,21 +763,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/flask/lib/python3.6/site-packages/jinja2/environment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="429" column="0" selection-start-line="429" selection-start-column="0" selection-end-line="429" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask/lib/python3.6/site-packages/sqlalchemy/sql/functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="664" column="6" selection-start-line="664" selection-start-column="6" selection-end-line="664" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flask/lib/python3.6/site-packages/wtforms/fields/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1094,28 +1034,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flask/lib/python3.6/site-packages/werkzeug/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="343" column="27" selection-start-line="343" selection-start-column="23" selection-end-line="343" selection-end-column="27" />
-          <folding>
-            <marker date="1511860342000" expanded="true" signature="2719:2801" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flask/lib/python3.6/site-packages/flask/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33200794">
           <caret line="1597" column="0" selection-start-line="1597" selection-start-column="0" selection-end-line="1597" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33200794">
-          <caret line="510" column="0" selection-start-line="510" selection-start-column="0" selection-end-line="510" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1212,21 +1134,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/__init__.py">
+    <entry file="file://$PROJECT_DIR$/app/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="16" />
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#118#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask/lib/python3.6/site-packages/flask/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="167" column="0" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/run.py">
+    <entry file="file://$PROJECT_DIR$/flask/lib/python3.6/site-packages/werkzeug/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40325865">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="446" column="27" selection-start-line="446" selection-start-column="27" selection-end-line="446" selection-end-column="27" />
           <folding>
-            <element signature="e#118#128#0" expanded="true" />
+            <marker date="1511860342000" expanded="true" signature="2719:2801" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="466" column="0" selection-start-line="466" selection-start-column="0" selection-end-line="466" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="e#46#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3478261">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
