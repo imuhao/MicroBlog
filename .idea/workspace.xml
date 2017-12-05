@@ -55,6 +55,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="testr_command.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flask/lib/python3.6/site-packages/pbr/testr_command.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/flask/lib/python3.6/site-packages/flask/app.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1597" column="0" selection-start-line="1597" selection-start-column="0" selection-end-line="1597" selection-end-column="0" />
+              <caret line="829" column="24" selection-start-line="829" selection-start-column="23" selection-end-line="829" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -725,7 +735,13 @@
       <option name="project" value="LOCAL" />
       <updated>1512456142205</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="deploy for service">
+      <created>1512456161080</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1512456161080</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -859,14 +875,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/flask/lib/python3.6/site-packages/wtforms/validators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flask/lib/python3.6/site-packages/wtforms/form.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1268,10 +1276,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/flask/lib/python3.6/site-packages/pbr/testr_command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/flask/lib/python3.6/site-packages/flask/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1597" column="0" selection-start-line="1597" selection-start-column="0" selection-end-line="1597" selection-end-column="0" />
+          <caret line="829" column="24" selection-start-line="829" selection-start-column="23" selection-end-line="829" selection-end-column="24" />
           <folding />
         </state>
       </provider>
