@@ -5,4 +5,4 @@
 # @Describe: 运行 flask
 
 from app import app
-app.run(debug=True)
+app.run()
