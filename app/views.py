@@ -124,7 +124,7 @@ def edit():
     if form.validate_on_submit():
         current_user.nickname = form.nickname.data
         current_user.about_me = form.about_me.data
-        current_user.avatar = form.avatar
+        current_user.avatar = form.avatar.data
         db.session.add(current_user)
         db.session.commit()
         return redirect(url_for('user', nickname=current_user.nickname))
