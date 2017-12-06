@@ -54,8 +54,10 @@ def login():
             return redirect(url_for('login'))
 
         # 自己添加自己为关注
-        #db.session.add(user.follow(user))
-        #db.session.commit()
+        u = user.follow(user)
+        if u is not  None:
+            db.session.add(user.follow(user))
+            db.session.commit()
 
         login_user(user, remember=form.remember_me.data)
         next = request.args.get('next')
@@ -122,7 +124,7 @@ def edit():
     if form.validate_on_submit():
         current_user.nickname = form.nickname.data
         current_user.about_me = form.about_me.data
-        db.session.add(current_user.user)
+        db.session.add(current_user)
         db.session.commit()
         return redirect(url_for('user', nickname=current_user.nickname))
     else:
