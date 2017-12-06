@@ -30,7 +30,7 @@ def index(page=1):
     posts = current_user.followed_posts().paginate(page, POSTS_PER_PAGE, False)
 
     return render_template('index.html',
-                           title="MicroBlog",
+                           title="努努和菜菜的后花园",
                            user=user,
                            form=form,
                            posts=posts)
