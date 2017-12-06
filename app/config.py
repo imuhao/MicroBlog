@@ -22,4 +22,4 @@ SQLALCHEMY_MIGRATE_REPO = os.path.join(basediir, 'db_repository')
 
 SQLALCHEMY_TRACK_MODIFICATIONS = True
 # pagination
-POSTS_PER_PAGE = 3
+POSTS_PER_PAGE = 10

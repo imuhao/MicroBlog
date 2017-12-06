@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b1efd86-5f1b-4e71-9d7b-062a4862424c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.db" afterPath="$PROJECT_DIR$/app/app.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/microblog.log" afterPath="$PROJECT_DIR$/app/tmp/microblog.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views.py" afterPath="$PROJECT_DIR$/app/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config.py" afterPath="$PROJECT_DIR$/app/config.py" />
     </list>
     <ignored path="microblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,11 +80,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37642586">
+            <state vertical-scroll-proportion="0.0">
               <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7490494">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -138,8 +146,8 @@
         <option value="$PROJECT_DIR$/app/templates/base.html" />
         <option value="$PROJECT_DIR$/app/templates/404.html" />
         <option value="$PROJECT_DIR$/app/templates/505.html" />
-        <option value="$PROJECT_DIR$/app/config.py" />
         <option value="$PROJECT_DIR$/app/views.py" />
+        <option value="$PROJECT_DIR$/app/config.py" />
       </list>
     </option>
   </component>
@@ -224,7 +232,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="view&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;db_crea&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/db_create.py&#10;base&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/base.html&#10;pull&#9;ACTION&#9;Vcs.UpdateProject&#10;commit&#9;ACTION&#9;CheckinProject&#10;user&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/user.html&#10;post&#9;null&#9;null&#10;index&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;User&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/user.html&#10;config&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/flask/lib/python3.6/site-packages/flask/config.py&#10;inde&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;Post&#9;null&#9;null&#10;form&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;for&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;index.&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;__init&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/__init__.py&#10;views&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;comm&#9;ACTION&#9;CheckinProject&#10;r&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/run.py&#10;app&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/flask/lib/python3.6/site-packages/flask/app.py&#10;run&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/run.py&#10;__i&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/__init__.py&#10;__in&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/flask/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py&#10;commi&#9;ACTION&#9;CheckinProject&#10;models&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py&#10;mode&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py&#10;test&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/test.py&#10;db_mi&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/database/db_migrate.py&#10;model&#9;null&#9;null&#10;mod&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py&#10;__ini&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/__init__.py&#10;dbtest&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/db_test.py&#10;db_test&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/db_test.py&#10;man&#9;null&#9;null&#10;revert&#9;ACTION&#9;ChangesView.Revert&#10;012_migration&#9;null&#9;null&#10;edit&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/templates/edit.html&#10;login&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/templates/login.html&#10;mo&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/models.py&#10;datetime&#9;null&#9;null&#10;Use&#9;null&#9;null&#10;__&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/__init__.py&#10;db_upgrade&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/db_upgrade.py&#10;confi&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/config.py" />
+    <property name="SearchEverywhereHistoryKey" value="comm&#9;ACTION&#9;CheckinProject&#10;con&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/config.py&#10;pull&#9;ACTION&#9;Vcs.UpdateProject&#10;view&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;db_crea&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/db_create.py&#10;base&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/base.html&#10;commit&#9;ACTION&#9;CheckinProject&#10;user&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/user.html&#10;post&#9;null&#9;null&#10;index&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;User&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/user.html&#10;config&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/flask/lib/python3.6/site-packages/flask/config.py&#10;inde&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;Post&#9;null&#9;null&#10;form&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;for&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;index.&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;__init&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/__init__.py&#10;views&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;r&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/run.py&#10;app&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/flask/lib/python3.6/site-packages/flask/app.py&#10;run&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/run.py&#10;__i&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/__init__.py&#10;__in&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/flask/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py&#10;commi&#9;ACTION&#9;CheckinProject&#10;models&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py&#10;mode&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py&#10;test&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/test.py&#10;db_mi&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/database/db_migrate.py&#10;model&#9;null&#9;null&#10;mod&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py&#10;__ini&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/__init__.py&#10;dbtest&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/db_test.py&#10;db_test&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/db_test.py&#10;man&#9;null&#9;null&#10;revert&#9;ACTION&#9;ChangesView.Revert&#10;012_migration&#9;null&#9;null&#10;edit&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/templates/edit.html&#10;login&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/templates/login.html&#10;mo&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/models.py&#10;datetime&#9;null&#9;null&#10;Use&#9;null&#9;null&#10;__&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/__init__.py&#10;db_upgrade&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/db_upgrade.py&#10;confi&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/config.py" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -836,7 +844,13 @@
       <option name="project" value="LOCAL" />
       <updated>1512548629029</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Bootstrap">
+      <created>1512549190005</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1512549190005</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1359,14 +1373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5856164">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1389,8 +1395,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37642586">
+        <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7490494">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
