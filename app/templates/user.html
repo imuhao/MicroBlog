@@ -15,7 +15,7 @@
                 {% if user.id==current_user.id %}
                     <p><a href="{{ url_for('edit') }}">Edit</a></p>
                 {% elif not current_user.is_following(user) %}
-                    <p><a href="{{ url_for('follow',nickname = user.nickname) }}" >Follow</a></p>
+                    <p><a href="{{ url_for('follow',nickname = user.nickname) }}">Follow</a></p>
 
                 {% else %}
                     <p><a href="{{ url_for('unfollow',nickname=user.nickname) }}">UnFollow</a></p>
@@ -26,10 +26,16 @@
     </table>
 
     <hr>
-    {% for post in posts %}
-        <p>
-            {{ post.author.nickname }} say: <b>{{ post.body }}</b>
-        </p>
+    {% for post in posts.items %}
+        {% include 'post.html' %}
     {% endfor %}
+    </br>
+    {% if posts.has_prev %}
+        <a href="{{ url_for('user',nickname = user.nickname,page = posts.prev_num) }}"><< Pre Page</a>{% else %}<< Pre
+        Page
+    {% endif %} |
+    {% if posts.has_next %}
+        <a href="{{ url_for('user',nickname = user.nickname,page = posts.next_num) }}">Next Page >></a>{% else %}Next
+        Page >>{% endif %}
 
 {% endblock %}

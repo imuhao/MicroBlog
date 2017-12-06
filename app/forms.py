@@ -9,7 +9,6 @@ from wtforms import StringField, BooleanField, SubmitField, TextAreaField, Passw
 from wtforms.validators import DataRequired, Length, Regexp
 
 
-# 密码长度在6-12
 class LoginFrom(Form):
     nickname = StringField('nickname', validators=[DataRequired()])
     password = PasswordField('password',
@@ -24,3 +23,9 @@ class LoginFrom(Form):
 class EditForm(Form):
     nickname = StringField('nickname', validators=[DataRequired()])
     about_me = TextAreaField('about_me', validators=[Length(min=0, max=140)])
+
+
+class PostForm(Form):
+    post = StringField('post', validators=[DataRequired()])
+
+

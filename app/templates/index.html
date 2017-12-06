@@ -3,9 +3,37 @@
 
     <h1>Hi {{ user.nickname }} !</h1>
 
-    {% for post in posts %}
+    <form action="" method="post" name="post">
+
+        <table>
+            <tr>
+                <td>Say something:</td>
+                <td>{{ form.post(size = 30,maxlength = 140) }}</td>
+                <td><input type="submit" value="Send!"></td>
+                <td>
+                    {% for error in form.errors.post %}
+                        <span style="color: red;">[{{ error }}]</span><br>
+                    {% endfor %}
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    </br>
+
+    {% for post in posts.items %}
         {% include 'post.html' %}
     {% endfor %}
+
+    {# has_next：如果在目前页后至少还有一页的话，返回 True
+    has_prev：如果在目前页之前至少还有一页的话，返回 True
+    next_num：下一页的页面数
+    prev_num：前一页的页面数#}
+    </br>
+    {% if posts.has_prev %}<a href="{{ url_for('index',page = posts.prev_num) }}"><< Pre Page</a>{% else %}<< Pre Page
+    {% endif %} |
+    {% if posts.has_next %}<a href="{{ url_for('index',page=posts.next_num) }}">Next Page >></a>{% else %}Next Page >>
+    {% endif %}
 
 {% endblock %}
 

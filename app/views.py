@@ -6,31 +6,33 @@
 from datetime import datetime
 
 from app import app, db, lm
-from flask import render_template, redirect, flash, session, url_for, g, request, abort
-from .forms import LoginFrom, EditForm
+from app.config import POSTS_PER_PAGE
+from flask import render_template, redirect, flash, url_for, request, abort
+from .forms import LoginFrom, EditForm, PostForm
 from flask_login import login_user, current_user, logout_user, login_required
+from .models import User, Post
 
-from .models import User
 
-
-@app.route('/')
-@app.route('/index')
+@app.route('/', methods=['GET', 'POST'])
+@app.route('/page/<int:page>', methods=['GET', 'POST'])
 @login_required
-def index():
+def index(page=1):
     user = current_user
-    posts = [
-        {
-            'author': {'nickname': 'John', 'avatar': '/static/smile_avatar.jpg'},
-            'body': 'Beautiful day in Portland!'
-        },
-        {
-            'author': {'nickname': 'Susan', 'avatar': '/static/smile_avatar.jpg'},
-            'body': 'The Avengers movie was so cool!'
-        }
-    ]
+    form = PostForm()
+
+    if form.is_submitted():
+        post = Post(form.post.data, user, datetime.now())
+        db.session.add(post)
+        db.session.commit()
+        flash("Your post is now live !")
+        return redirect(url_for('index'))
+
+    posts = current_user.followed_posts().paginate(page, POSTS_PER_PAGE, False)
+
     return render_template('index.html',
                            title="MicroBlog",
                            user=user,
+                           form=form,
                            posts=posts)
 
 
@@ -104,15 +106,13 @@ def before_request():
 
 @login_required
 @app.route("/user/<nickname>")
-def user(nickname):
+@app.route("/user/<nickname>/<int:page>")
+def user(nickname, page=1):
     user = User.query.filter_by(nickname=nickname).first()
     if user == None:
         return abort(404)
 
-    posts = [
-        {'author': user, 'body': 'Test post #1'},
-        {'author': user, 'body': 'Test post #2'}
-    ]
+    posts = current_user.posts.paginate(page, POSTS_PER_PAGE, False)
     return render_template('user.html', title=user.nickname + '- User Info', user=user, posts=posts)
 
 
