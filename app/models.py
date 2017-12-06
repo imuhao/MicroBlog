@@ -33,7 +33,7 @@ class User(UserMixin, db.Model):
                                backref=db.backref('followers', lazy='dynamic'),
                                lazy='dynamic')
 
-    def __init__(self, nickname, password, email, avatar=None, about_me=None):
+    def __init__(self, nickname, password, email="", avatar=None, about_me=None):
         if about_me is None: about_me = 'Hello World!'
         if avatar is None: avatar = '/static/smile_avatar.jpg'
 
@@ -61,7 +61,7 @@ class User(UserMixin, db.Model):
 
     def followed_posts(self):
         return Post.query.join(followers, (followers.c.followed_id == Post.user_id)).filter(
-            followers.c.follower_id == self.id).order_by(Post.timestamp.desc())
+                followers.c.follower_id == self.id).order_by(Post.timestamp.desc())
 
     def __repr__(self):
         return '<User %r>' % self.nickname

@@ -55,8 +55,8 @@ def login():
 
         # 自己添加自己为关注
         u = user.follow(user)
-        if u is not  None:
-            db.session.add(user.follow(user))
+        if u is not None:
+            db.session.add(u)
             db.session.commit()
 
         login_user(user, remember=form.remember_me.data)
