@@ -16,7 +16,7 @@ OPENID_PROVIDERS = [
 
 import os
 
-basediir = os.path.abspath(os.path.dirname(__file__))
+basediir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
 SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basediir, "app.db")
 SQLALCHEMY_MIGRATE_REPO = os.path.join(basediir, 'db_repository')
 
