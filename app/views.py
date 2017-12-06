@@ -112,7 +112,7 @@ def user(nickname, page=1):
     if user == None:
         return abort(404)
 
-    posts = current_user.posts.paginate(page, POSTS_PER_PAGE, False)
+    posts = current_user.posts.order_by(Post.timestamp.desc()).paginate(page, POSTS_PER_PAGE, False)
     return render_template('user.html', title=user.nickname + '- User Info', user=user, posts=posts)
 
 
