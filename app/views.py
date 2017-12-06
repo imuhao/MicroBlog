@@ -54,8 +54,8 @@ def login():
             return redirect(url_for('login'))
 
         # 自己添加自己为关注
-        db.session.add(user.follow(user))
-        db.session.commit()
+        #db.session.add(user.follow(user))
+        #db.session.commit()
 
         login_user(user, remember=form.remember_me.data)
         next = request.args.get('next')
