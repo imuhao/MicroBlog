@@ -44,7 +44,7 @@
 
     <script>
         function translate(post, translatedid) {
-            $(translatedid).hide();
+            {#            $(translatedid).hide();#}
             $(post).hide();
             $.post('/translate', {
                 text: $(post).text()
@@ -56,7 +56,6 @@
             }).fail(function () {
                 $(post).text("{{ _('Error: Could not contact server.') }}");
                 $(post).show();
-                $(translatedid).show();
             });
         }
     </script>
