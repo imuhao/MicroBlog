@@ -4,7 +4,7 @@
         <td>
             <b>{{ post.author.nickname }} </b>
             <br>
-            <font size="2px" color="#a9a9a9"> {{ post.timestamp.strftime("%Y-%m-%d %H:%M:%S") }}</font>
+            <font size="2px" color="#a9a9a9"> {{ momentjs(post.timestamp).fromNow() }}</font>
             <br>
             {{ post.body }}</td>
     </tr>

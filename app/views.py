@@ -21,7 +21,7 @@ def index(page=1):
     form = PostForm()
 
     if form.is_submitted():
-        post = Post(form.post.data, user, datetime.now())
+        post = Post(form.post.data, user, datetime.utcnow())
         db.session.add(post)
         db.session.commit()
         flash("Your post is now live !")
@@ -99,7 +99,7 @@ def logout():
 @app.before_request
 def before_request():
     if current_user is not None and current_user.is_authenticated:
-        current_user.last_seen = datetime.now()
+        current_user.last_seen = datetime.utcnow()
         db.session.add(current_user)
         db.session.commit()
 

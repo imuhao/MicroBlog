@@ -11,7 +11,7 @@
                 <b>User: {{ user.nickname }}</b>
                 {% if user.about_me %}<p>{{ user.about_me }}</p>{% endif %}
                 {% if user.last_seen %}
-                    <p><i> Lase seen on {{ user.last_seen.strftime("%Y-%m-%d %H:%M:%S") }}</i></p>{% endif %}
+                    <p><i> Lase seen on {{ momentjs(user.last_seen).calendar() }}</i></p>{% endif %}
                 {% if user.id==current_user.id %}
                     <p><a href="{{ url_for('edit') }}">Edit</a></p>
                 {% elif not current_user.is_following(user) %}

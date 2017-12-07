@@ -6,10 +6,14 @@ from flask_login import LoginManager
 from .config import basediir
 from .logger import init_logger
 from app import config
+from .momentjs import momentjs
 
 app = Flask(__name__)
 app.config.from_object("app.config")
 db = SQLAlchemy(app)
+
+# 导入到 jinja2绑定
+app.jinja_env.globals['momentjs'] = momentjs
 
 lm = LoginManager()
 lm.init_app(app)
