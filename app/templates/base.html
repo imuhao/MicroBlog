@@ -13,11 +13,11 @@
 <body>
 
 <div>Nunu And Caicai:
-    <a href="/">Home</a>
+    <a href="/">{{ _('Home') }}</a>
 
     {% if current_user.is_authenticated %}
-        <a href="{{ url_for('user',nickname=current_user.nickname ) }}">Your Proofile</a>
-        <a href="{{ url_for('logout') }}">Logout</a>
+        <a href="{{ url_for('user',nickname=current_user.nickname ) }}">{{ _('Your Proofile') }}</a>
+        <a href="{{ url_for('logout') }}">{{ _('Logout') }}</a>
     {% endif %}
 
 

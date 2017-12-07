@@ -4,13 +4,13 @@
 # @Author  : Smile
 # @Describe: 数据库视图
 from datetime import datetime
-
-from app import app, db, lm
-from app.config import POSTS_PER_PAGE
+from app import app, db, lm, babel
+from app.config import POSTS_PER_PAGE, LANGUAGES
 from flask import render_template, redirect, flash, url_for, request, abort
 from .forms import LoginFrom, EditForm, PostForm
 from flask_login import login_user, current_user, logout_user, login_required
 from .models import User, Post
+from flask_babel import gettext
 
 
 @app.route('/', methods=['GET', 'POST'])
@@ -24,7 +24,7 @@ def index(page=1):
         post = Post(form.post.data, user, datetime.utcnow())
         db.session.add(post)
         db.session.commit()
-        flash("Your post is now live !")
+        flash(gettext("Your post is now live !"))
         return redirect(url_for('index'))
 
     posts = current_user.followed_posts().paginate(page, POSTS_PER_PAGE, False)
@@ -193,3 +193,9 @@ def internal_error(error):
 def internal_error(error):
     db.session.rollback()
     return render_template("505.html"), 505
+
+
+@babel.localeselector
+def get_locale():
+    # return 'zh'
+    return request.accept_languages.best_match(LANGUAGES.keys())
