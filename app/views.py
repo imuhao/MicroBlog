@@ -7,10 +7,14 @@ from datetime import datetime
 from app import app, db, lm, babel
 from app.config import POSTS_PER_PAGE, LANGUAGES
 from flask import render_template, redirect, flash, url_for, request, abort
-from .forms import LoginFrom, EditForm, PostForm
+from app.forms import LoginFrom, EditForm, PostForm
 from flask_login import login_user, current_user, logout_user, login_required
-from .models import User, Post
+from app.models import User, Post
+from app import models
 from flask_babel import gettext
+from flask import jsonify
+from app.translate import Translate
+from guess_language import guess_language
 
 
 @app.route('/', methods=['GET', 'POST'])
@@ -199,3 +203,23 @@ def internal_error(error):
 def get_locale():
     # return 'zh'
     return request.accept_languages.best_match(LANGUAGES.keys())
+
+
+@app.route('/translate', methods=['POST'])
+@login_required
+def translate():
+    src = request.form['text']
+    form = 'en'
+    to = 'zh'
+
+    language = guess_language(src)
+    if language == 'zh':
+        form = 'zh'
+        to = 'en'
+
+    json = jsonify({
+        'text': Translate.translate(
+                src, form, to)
+    })
+
+    return json

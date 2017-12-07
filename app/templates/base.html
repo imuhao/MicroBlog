@@ -5,14 +5,13 @@
     {% else %}
         <title>努努和菜菜的后花园</title>
     {% endif %}
-
-
 </head>
-<script src="http://momentjs.com/downloads/moment.js"></script>
-
+<script src="http://momentjs.cn/downloads/moment-with-locales.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js">
+</script>
 <body>
 
-<div>Nunu And Caicai:
+<div>
     <a href="/">{{ _('Home') }}</a>
 
     {% if current_user.is_authenticated %}
@@ -39,3 +38,25 @@
 
 </body>
 </html>
+
+
+{% block scripts %}
+
+    <script>
+        function translate(post, translatedid) {
+
+            $(post).hide();
+            $.post('/translate', {
+                text: $(post).text()
+            }).done(function (translated) {
+                $(translatedid).hide();
+                $(post).text(translated['text'])
+                $(post).show();
+
+            }).fail(function () {
+                $(post).text("{{ _('Error: Could not contact server.') }}");
+                $(post).show();
+            });
+        }
+    </script>
+{% endblock %}

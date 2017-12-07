@@ -6,6 +6,20 @@
             <br>
             <font size="2px" color="#a9a9a9"> {{ momentjs(post.timestamp).fromNow() }}</font>
             <br>
-            {{ post.body }}</td>
+            <div><span id="post{{ post.id }}">{{ post.body }}</span></div>
+
+        </td>
+        <th>
+            <div>
+                <span id="translation{{ post.id }}">
+                    <a href="javascript:translate(
+                    '#post{{ post.id }}',
+                    '#translation{{ post.id }}'
+                    )"
+                    >
+                        {{ _('Translate') }}</a>
+                </span>
+            </div>
+        </th>
     </tr>
 </table>
