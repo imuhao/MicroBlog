@@ -44,18 +44,19 @@
 
     <script>
         function translate(post, translatedid) {
-
+            $(translatedid).hide();
             $(post).hide();
             $.post('/translate', {
                 text: $(post).text()
             }).done(function (translated) {
-                $(translatedid).hide();
+
                 $(post).text(translated['text'])
                 $(post).show();
 
             }).fail(function () {
                 $(post).text("{{ _('Error: Could not contact server.') }}");
                 $(post).show();
+                $(translatedid).show();
             });
         }
     </script>
