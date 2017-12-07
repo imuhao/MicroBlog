@@ -10,7 +10,6 @@ from flask import render_template, redirect, flash, url_for, request, abort
 from app.forms import LoginFrom, EditForm, PostForm
 from flask_login import login_user, current_user, logout_user, login_required
 from app.models import User, Post
-from app import models
 from flask_babel import gettext
 from flask import jsonify
 from app.translate import Translate

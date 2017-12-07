@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b1efd86-5f1b-4e71-9d7b-062a4862424c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/translate.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/translations/zh/LC_MESSAGES/messages.mo" afterPath="$PROJECT_DIR$/app/translations/zh/LC_MESSAGES/messages.mo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/base.html" afterPath="$PROJECT_DIR$/app/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/post.html" afterPath="$PROJECT_DIR$/app/templates/post.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/microblog.log" afterPath="$PROJECT_DIR$/app/tmp/microblog.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/translations/zh/LC_MESSAGES/messages.po" afterPath="$PROJECT_DIR$/app/translations/zh/LC_MESSAGES/messages.po" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views.py" afterPath="$PROJECT_DIR$/app/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/microblog.log" afterPath="$PROJECT_DIR$/tmp/microblog.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/message.pot" afterPath="$PROJECT_DIR$/message.pot" />
     </list>
     <ignored path="microblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,12 +69,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="momentjs.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="momentjs.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/momentjs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8689408">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages.po" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/translations/zh/LC_MESSAGES/messages.po">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.76301616">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="translate.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/translate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="e#109#123#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,13 +158,13 @@
         <option value="$PROJECT_DIR$/app/config.py" />
         <option value="$PROJECT_DIR$/app/templates/login.html" />
         <option value="$PROJECT_DIR$/app/templates/index.html" />
-        <option value="$PROJECT_DIR$/app/translations/zh/LC_MESSAGES/messages.po" />
         <option value="$PROJECT_DIR$/app/templates/post.html" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/app/translate.py" />
-        <option value="$PROJECT_DIR$/app/views.py" />
         <option value="$PROJECT_DIR$/app/templates/base.html" />
         <option value="$PROJECT_DIR$/app/momentjs.py" />
+        <option value="$PROJECT_DIR$/app/views.py" />
+        <option value="$PROJECT_DIR$/app/translations/zh/LC_MESSAGES/messages.po" />
       </list>
     </option>
   </component>
@@ -192,6 +222,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="translations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LC_MESSAGES" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -205,7 +275,7 @@
     <property name="settings.editor.splitter.proportion" value="0.22815534" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="comm&#9;ACTION&#9;CheckinProject&#10;mo&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/momentjs.py&#10;basehtml&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/base.html&#10;base&#9;null&#9;null&#10;view&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;post&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/post.html&#10;tran&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/translate.py&#10;commit&#9;ACTION&#9;CheckinProject&#10;User&#9;null&#9;null&#10;user&#9;null&#9;null&#10;index&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;login&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/login.html&#10;vi&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;views&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;con&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/config.py&#10;__ini&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/__init__.py&#10;config&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/config.py&#10;__init&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/__init__.py&#10;momentjs&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/momentjs.py&#10;pull&#9;ACTION&#9;Vcs.UpdateProject&#10;Fo&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;mode&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py&#10;Form&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;edit&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/edit.html&#10;run&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/run.py&#10;db_crea&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/db_create.py&#10;inde&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;Post&#9;null&#9;null&#10;form&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;for&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;index.&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;r&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/run.py&#10;app&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/flask/lib/python3.6/site-packages/flask/app.py&#10;__i&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/__init__.py&#10;__in&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/flask/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py&#10;commi&#9;ACTION&#9;CheckinProject&#10;models&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py&#10;test&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/test.py&#10;db_mi&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/database/db_migrate.py&#10;model&#9;null&#9;null&#10;mod&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py&#10;dbtest&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/db_test.py&#10;db_test&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/db_test.py&#10;man&#9;null&#9;null&#10;revert&#9;ACTION&#9;ChangesView.Revert&#10;012_migration&#9;null&#9;null&#10;datetime&#9;null&#9;null&#10;Use&#9;null&#9;null&#10;__&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/__init__.py&#10;db_upgrade&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/db_upgrade.py" />
+    <property name="SearchEverywhereHistoryKey" value="commit&#9;ACTION&#9;CheckinProject&#10;view&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;pull&#9;ACTION&#9;Vcs.UpdateProject&#10;comm&#9;ACTION&#9;CheckinProject&#10;mo&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/momentjs.py&#10;basehtml&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/base.html&#10;base&#9;null&#9;null&#10;post&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/post.html&#10;tran&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/translate.py&#10;User&#9;null&#9;null&#10;user&#9;null&#9;null&#10;index&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;login&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/login.html&#10;vi&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;views&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;con&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/config.py&#10;__ini&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/__init__.py&#10;config&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/config.py&#10;__init&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/__init__.py&#10;momentjs&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/momentjs.py&#10;Fo&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;mode&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py&#10;Form&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;edit&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/edit.html&#10;run&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/run.py&#10;db_crea&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/db_create.py&#10;inde&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;Post&#9;null&#9;null&#10;form&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;for&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;index.&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;r&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/run.py&#10;app&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/flask/lib/python3.6/site-packages/flask/app.py&#10;__i&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/__init__.py&#10;__in&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/flask/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py&#10;commi&#9;ACTION&#9;CheckinProject&#10;models&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py&#10;test&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/test.py&#10;db_mi&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/database/db_migrate.py&#10;model&#9;null&#9;null&#10;mod&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py&#10;dbtest&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/db_test.py&#10;db_test&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/db_test.py&#10;man&#9;null&#9;null&#10;revert&#9;ACTION&#9;ChangesView.Revert&#10;012_migration&#9;null&#9;null&#10;datetime&#9;null&#9;null&#10;Use&#9;null&#9;null&#10;__&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/__init__.py&#10;db_upgrade&#9;FILE&#9;file:///Users/Smile/Desktop/python/microblog/app/db_upgrade.py" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -550,12 +620,6 @@
       <option name="number" value="Default" />
       <updated>1511859864692</updated>
     </task>
-    <task id="LOCAL-00008" summary="initial commit">
-      <created>1511868200424</created>
-      <option name="number" value="00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1511868200424</updated>
-    </task>
     <task id="LOCAL-00009" summary="initial commit">
       <created>1511868208871</created>
       <option name="number" value="00009" />
@@ -844,7 +908,13 @@
       <option name="project" value="LOCAL" />
       <updated>1512617608882</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="translate">
+      <created>1512632271249</created>
+      <option name="number" value="00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1512632271249</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -965,7 +1035,8 @@
     <MESSAGE value="Bootstrap" />
     <MESSAGE value="data and time" />
     <MESSAGE value="internationalization" />
-    <option name="LAST_COMMIT_MESSAGE" value="internationalization" />
+    <MESSAGE value="translate" />
+    <option name="LAST_COMMIT_MESSAGE" value="translate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1262,14 +1333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/translations/zh/LC_MESSAGES/messages.po">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1334,31 +1397,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/translate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#109#123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="217" column="16" selection-start-line="217" selection-start-column="14" selection-end-line="217" selection-end-column="16" />
-          <folding>
-            <element signature="e#114#143#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1380,8 +1423,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/momentjs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8689408">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/translate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#109#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/translations/zh/LC_MESSAGES/messages.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76301616">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
       </provider>

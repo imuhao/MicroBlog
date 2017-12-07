@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-12-07 11:31+0800\n"
+"POT-Creation-Date: 2017-12-07 15:47+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,24 +17,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.1\n"
 
-#: app/views.py:27
+#: app/views.py:30
 msgid "Your post is now live !"
 msgstr ""
 
-#: app/templates/base.html:16
+#: app/templates/base.html:15
 msgid "Home"
 msgstr ""
 
-#: app/templates/base.html:19
+#: app/templates/base.html:18
 msgid "Your Proofile"
 msgstr ""
 
-#: app/templates/base.html:20
+#: app/templates/base.html:19
 msgid "Logout"
+msgstr ""
+
+#: app/templates/base.html:57
+msgid "Error: Could not contact server."
 msgstr ""
 
 #: app/templates/index.html:4
 #, python-format
 msgid "Hello, %(name)s !"
+msgstr ""
+
+#: app/templates/post.html:20
+msgid "Translate"
 msgstr ""
 
