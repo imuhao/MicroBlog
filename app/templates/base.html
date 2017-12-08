@@ -1,3 +1,4 @@
+<html>
 <head>
     <meta charset="UTF-8">
     {% if title %}
@@ -21,7 +22,7 @@
         <a class="menuButton" href="{{ url_for('logout') }}">{{ _('Logout') }}</a>
     {% endif %}
 </div>
-</hr>
+<hr/>
 
 {% with  messages = get_flashed_messages() %}
     {% if messages %}
