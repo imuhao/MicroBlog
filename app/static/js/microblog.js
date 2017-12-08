@@ -15,3 +15,8 @@ function translate(post, translatedid) {
                 $(post).show();
             });
         }
+
+
+function sendsuccess(){
+    alert('send success')
+}
