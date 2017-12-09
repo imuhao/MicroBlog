@@ -1,24 +1,19 @@
 {% extends "base.html" %}
 {% block content %}
 
-    <h1>{{ _('Hello, %(name)s !',name=user.nickname) }}</h1>
 
     <div style="padding-top: 10px;padding-bottom: 10px">
 
-        <form action="" method="post" name="post">
+        <form class="bs-example bs-example-form" role="form" action="" method="post" name="post">
 
-            <table>
-                <tr>
-                    <td>Say something:</td>
-                    <td>{{ form.post(size = 30,maxlength = 140) }}</td>
-                    <td><input type="submit" value="Send!" style="background-color: #79bbff;color: #ffffff"></td>
-                    <td>
-                        {% for error in form.errors.post %}
-                            <span style="color: red;">[{{ error }}]</span><br>
-                        {% endfor %}
-                    </td>
-                </tr>
-            </table>
+            <div class="input-group sayForm">
+                {{ form.post(class='form-control',placeholder="说点什么?") }}
+
+                <span class="input-group-btn">
+						<button class="btn btn-default" type="submit">Go!</button>
+				</span>
+            </div>
+
         </form>
     </div>
 
@@ -30,11 +25,20 @@
     has_prev：如果在目前页之前至少还有一页的话，返回 True
     next_num：下一页的页面数
     prev_num：前一页的页面数#}
-    </br>
-    {% if posts.has_prev %}<a href="{{ url_for('index',page = posts.prev_num) }}"><< Pre Page</a>{% else %}<< Pre Page
-    {% endif %} |
-    {% if posts.has_next %}<a href="{{ url_for('index',page=posts.next_num) }}">Next Page >></a>{% else %}Next Page >>
-    {% endif %}
+
+    <ul style="text-align:left" class="pager">
+        {% if posts.has_prev %}
+            <li><a href="{{ url_for('index',page = posts.prev_num) }}">&larr; Older</a></li>
+        {% else %}
+            <li class="disabled"><a>&larr; Older</a></li>
+        {% endif %}
+
+        {% if posts.has_next %}
+            <li><a href="{{ url_for('index',page=posts.next_num) }}">Newer &rarr;</a></li>
+        {% else %}
+            <li class="disabled"><a>Newer &rarr;</a></li>
+        {% endif %}
+    </ul>
 
 {% endblock %}
 

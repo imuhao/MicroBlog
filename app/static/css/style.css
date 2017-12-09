@@ -15,30 +15,18 @@ body {
     margin: 8px;
 }
 
-
-.menuButton {
-    -moz-box-shadow: 3px 4px 0 0 #bbdaf7;
-    -webkit-box-shadow: 3px 4px 0 0 #bbdaf7;
-    box-shadow: 3px 4px 0 0 #bbdaf7;
-    background-color: #79bbff;
-    -moz-border-radius: 18px;
-    -webkit-border-radius: 18px;
-    border-radius: 18px;
-    border: 1px solid #84bbf3;
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 12px;
-    padding: 5px 16px;
-    text-decoration: none;
-    text-shadow: 0 1px 0 #528ecc;
+.sayForm {
+    width: 250px;
+    margin-bottom: 10px;
 }
 
 .menuDiv {
-    /*margin-top: 20px;*/
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     align-content: center;
+}
+
+.message-div {
+    margin-right: 15px;
 }
 
 .translationSpan {

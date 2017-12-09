@@ -1,6 +1,7 @@
 <table>
     <tr valign="top">
-        <td><img class="authorImg img-responsive img-circle" src="{{ post.author.avatar }} " width="80" height="80"></td>
+        <td><img class="authorImg img-responsive img-rounded" src="{{ post.author.avatar }} " width="80" height="80">
+        </td>
         <td>
             <b>{{ post.author.nickname }} </b>
             <br>
@@ -9,17 +10,14 @@
             <div><span id="post{{ post.id }}">{{ post.body }}</span></div>
 
         </td>
+
         <th>
             <div>
                 <span id="translation{{ post.id }}">
-                    <a class="translationSpan" href="javascript:translate(
-                    '#post{{ post.id }}',
-                    '#translation{{ post.id }}'
-                    )"
-                    >
-                        {{ _('Translate') }}</a>
+                    <a class="btn btn-primary btn-xs" href="javascript:translate('#post{{ post.id }}')">翻译</a>
                 </span>
             </div>
         </th>
     </tr>
 </table>
+
