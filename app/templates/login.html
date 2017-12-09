@@ -3,25 +3,29 @@
 
 {% block content %}
 
-    <h1>Sign In</h1>
-    <form action="" method="post" name="login">
-        {{ form.hidden_tag() }}
-        <p>
-            Nickname:<br>
-            {{ form.nickname(size =40) }}<br>
+    <div class="signDiv">
 
-            Password:<br>
-            {{ form.password(size =40) }}<br>
+        <h1>Sign In</h1>
+        <form action="" method="post" name="login">
+            {{ form.hidden_tag() }}
+            <p>
+                Nickname:<br>
+                {{ form.nickname(size =40) }}<br>
 
-        </p>
-        {% for error in form.errors.password %}
-            {{ error }}
-        {% endfor %}
+                Password:<br>
+                {{ form.password(size =40) }}<br>
 
-        <p>{{ form.remember_me }} Remember Me</p>
+            </p>
+            {% for error in form.errors.password %}
+                {{ error }}
+            {% endfor %}
 
-        {{ form.sign_in() }}
-        {{ form.register() }}
+            <p>{{ form.remember_me }} Remember Me</p>
 
-    </form>
+            {{ form.sign_in(class='btn btn-lg btn-primary btn-block') }}
+            <p align="center" style="font-size: 18px;margin-top: 3px">or</p>
+            {{ form.register(class='btn btn-lg btn-primary btn-block') }}
+
+        </form>
+    </div>
 {% endblock %}

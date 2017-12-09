@@ -1,3 +1,20 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+}
+
+.signDiv {
+    padding-top: 20px;
+    margin: 0 auto;
+    align-content: center;
+    width: 300px;
+}
+
+.authorImg {
+    margin: 8px;
+}
+
 .menuButton {
     -moz-box-shadow: 3px 4px 0 0 #bbdaf7;
     -webkit-box-shadow: 3px 4px 0 0 #bbdaf7;
@@ -18,8 +35,8 @@
 }
 
 .menuDiv {
-    margin-top: 20px;
-    margin-bottom: 10px;
+    /*margin-top: 20px;*/
+    margin-bottom: 20px;
     align-content: center;
 }
 
