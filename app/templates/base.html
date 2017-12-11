@@ -15,10 +15,11 @@
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="../static/css/style.css" rel="stylesheet">
 
-    <script src="../static/js/microblog.js"></script>
+
     <script src="http://momentjs.cn/downloads/moment-with-locales.js"></script>
     <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../static/js/microblog.js"></script>
 
 </head>
 
@@ -31,7 +32,12 @@
             <li><a href="{{ url_for('user',nickname=current_user.nickname ) }}">{{ _('Your Proofile') }}</a></li>
             <li><a href="{{ url_for('logout') }}">{{ _('Logout') }}</a></li>
         {% endif %}
+
+        <li class="menuRightLi">
+            <p class="label label-danger menuRight">Smile</p>
+        </li>
     </ul>
+
 </div>
 
 {% with  messages = get_flashed_messages() %}

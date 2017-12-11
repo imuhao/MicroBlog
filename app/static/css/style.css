@@ -21,8 +21,20 @@ body {
 }
 
 .menuDiv {
+    text-align: center;
     margin-bottom: 10px;
-    align-content: center;
+}
+
+.menuRightLi {
+    padding-left: 50px;
+}
+
+.menuRight {
+    line-height: 33px; /*让黄色div中的文字内容垂直居中*/
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    visibility: hidden;
 }
 
 .message-div {
