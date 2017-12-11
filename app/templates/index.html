@@ -20,9 +20,12 @@
         </form>
     </div>
 
-    {% for post in posts.items %}
-        {% include 'post.html' %}
-    {% endfor %}
+    <div id="post_list">
+        {% for post in posts.items %}
+            {% include 'post.html' %}
+        {% endfor %}
+    </div>
+
 
     {# has_next：如果在目前页后至少还有一页的话，返回 True
     has_prev：如果在目前页之前至少还有一页的话，返回 True
@@ -47,21 +50,22 @@
         function is_update() {
             $.ajax('/get_fist_post', {dataType: 'json'})
                     .done(function (data) {
-                        original = $('#post' +{{posts.total}}).text();
-                        originalAuthor = data['author'];
-                        newauthor = "{{ current_user.nickname }}";
-                        newpost = data['body'];
-                        console.log('new:' + newpost)
-                        console.log('ofigin:' + original)
+                                original = $('#post' +{{posts.total}}).text();
+                                originalAuthor = data['author'];
+                                newauthor = "{{ current_user.nickname }}";
+                                newpost = data['body'];
+                                console.log('new:' + newpost + 'ofigin:' + original + 'length:' +{{posts.total}});
 
-                        if (original != newpost && originalAuthor != newauthor) {
-                            $('title').text('---有新消息啦---' + "{{ title }}");
-                            var audio = document.getElementById("bgMusic");
-                            //播放(继续播放)
-                            audio.play();
-                            clearInterval(fader)
-                        }
-                    })
+                                {#            $(`div.post_list:first-child`)#}
+
+                                if (original != newpost && originalAuthor != newauthor) {
+                                    $('title').text('---有新消息啦---' + "{{ title }}");
+                                    var audio = document.getElementById("bgMusic");
+                                    audio.play();
+                                    clearInterval(fader)
+                                }
+                            }
+                    )
         }
         var fader = setInterval(is_update, 500)
 
