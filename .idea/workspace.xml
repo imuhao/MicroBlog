@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1b1efd86-5f1b-4e71-9d7b-062a4862424c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/forms.py" afterPath="$PROJECT_DIR$/app/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/css/style.css" afterPath="$PROJECT_DIR$/app/static/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/base.html" afterPath="$PROJECT_DIR$/app/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/microblog.log" afterPath="$PROJECT_DIR$/app/tmp/microblog.log" />
     </list>
@@ -24,7 +22,7 @@
     <SUITE FILE_PATH="coverage/microblog$views.coverage" NAME="views Coverage Results" MODIFIED="1512627651332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/microblog$db_create.coverage" NAME="db_create Coverage Results" MODIFIED="1511920453110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/microblog$config.coverage" NAME="config Coverage Results" MODIFIED="1512550343653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
-    <SUITE FILE_PATH="coverage/microblog$run.coverage" NAME="run Coverage Results" MODIFIED="1512977082745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/microblog$run.coverage" NAME="run Coverage Results" MODIFIED="1512978009978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/microblog$db_test.coverage" NAME="db_test Coverage Results" MODIFIED="1512197879085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/microblog$Unittests_in_TextCase__1_.coverage" NAME="Unittests in TextCase (1) Coverage Results" MODIFIED="1512206666433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/microblog$test.coverage" NAME="test Coverage Results" MODIFIED="1512631162641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -70,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.82033896">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -90,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.387097">
-              <caret line="40" column="19" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.5211506">
+              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -167,9 +165,9 @@
         <option value="$PROJECT_DIR$/app/templates/user.html" />
         <option value="$PROJECT_DIR$/app/templates/index.html" />
         <option value="$PROJECT_DIR$/app/static/js/microblog.js" />
-        <option value="$PROJECT_DIR$/app/templates/base.html" />
         <option value="$PROJECT_DIR$/app/static/css/style.css" />
         <option value="$PROJECT_DIR$/app/forms.py" />
+        <option value="$PROJECT_DIR$/app/templates/base.html" />
       </list>
     </option>
   </component>
@@ -230,7 +228,7 @@
     <property name="settings.editor.splitter.proportion" value="0.22815534" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="css&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/static/css/style.css&#10;m&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/static/js/microblog.js&#10;base&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/base.html&#10;style&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/static/css/style.css&#10;styl&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/static/css/style.css&#10;user&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/user.html&#10;index&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;mic&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/static/js/microblog.js&#10;mir&#9;null&#9;null&#10;mi&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/static/js/microblog.js&#10;pos&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/post.html&#10;post&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/post.html&#10;ed&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/edit.html&#10;po&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/post.html&#10;bas&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/base.html&#10;login&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/login.html&#10;view&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;base.html&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/base.html&#10;index.h&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;run&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/run.py&#10;pull&#9;ACTION&#9;Vcs.UpdateProject&#10;comm&#9;ACTION&#9;CheckinProject&#10;commit&#9;ACTION&#9;CheckinProject&#10;mo&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/momentjs.py&#10;basehtml&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/base.html&#10;tran&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/translate.py&#10;User&#9;null&#9;null&#10;vi&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;views&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;con&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/config.py&#10;__ini&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/__init__.py&#10;config&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/config.py&#10;__init&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/__init__.py&#10;momentjs&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/momentjs.py&#10;Fo&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;mode&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py&#10;Form&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;edit&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/edit.html&#10;db_crea&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/db_create.py&#10;inde&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;Post&#9;null&#9;null&#10;form&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;for&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;index.&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;r&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/run.py&#10;app&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/flask/lib/python3.6/site-packages/flask/app.py&#10;__i&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/__init__.py&#10;__in&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/flask/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py&#10;commi&#9;ACTION&#9;CheckinProject&#10;models&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py" />
+    <property name="SearchEverywhereHistoryKey" value="base&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/base.html&#10;css&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/static/css/style.css&#10;m&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/static/js/microblog.js&#10;style&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/static/css/style.css&#10;styl&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/static/css/style.css&#10;user&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/user.html&#10;index&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;mic&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/static/js/microblog.js&#10;mir&#9;null&#9;null&#10;mi&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/static/js/microblog.js&#10;pos&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/post.html&#10;post&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/post.html&#10;ed&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/edit.html&#10;po&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/post.html&#10;bas&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/base.html&#10;login&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/login.html&#10;view&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;base.html&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/base.html&#10;index.h&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;run&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/run.py&#10;pull&#9;ACTION&#9;Vcs.UpdateProject&#10;comm&#9;ACTION&#9;CheckinProject&#10;commit&#9;ACTION&#9;CheckinProject&#10;mo&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/momentjs.py&#10;basehtml&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/base.html&#10;tran&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/translate.py&#10;User&#9;null&#9;null&#10;vi&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;views&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;con&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/config.py&#10;__ini&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/__init__.py&#10;config&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/config.py&#10;__init&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/__init__.py&#10;momentjs&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/momentjs.py&#10;Fo&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;mode&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py&#10;Form&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;edit&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/edit.html&#10;db_crea&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/db_create.py&#10;inde&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;Post&#9;null&#9;null&#10;form&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;for&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;index.&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;r&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/run.py&#10;app&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/flask/lib/python3.6/site-packages/flask/app.py&#10;__i&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/__init__.py&#10;__in&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/flask/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py&#10;commi&#9;ACTION&#9;CheckinProject&#10;models&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -569,12 +567,6 @@
       <option name="number" value="Default" />
       <updated>1511859864692</updated>
     </task>
-    <task id="LOCAL-00025" summary="add requirements.txt">
-      <created>1512453711832</created>
-      <option name="number" value="00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1512453711832</updated>
-    </task>
     <task id="LOCAL-00026" summary="add requirements.txt">
       <created>1512453912077</created>
       <option name="number" value="00026" />
@@ -863,7 +855,13 @@
       <option name="project" value="LOCAL" />
       <updated>1512974173989</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Popover">
+      <created>1512977483706</created>
+      <option name="number" value="00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1512977483706</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -916,9 +914,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29833546" sideWeight="0.5058224" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20870678" sideWeight="0.49417758" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20870678" sideWeight="0.49417758" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16773367" sideWeight="0.49417758" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16773367" sideWeight="0.49417758" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11135371" sideWeight="0.49384615" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1352,14 +1350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.387097">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.948276">
@@ -1380,8 +1370,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82033896">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5211506">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
           <folding />
         </state>
       </provider>
