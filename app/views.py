@@ -6,7 +6,7 @@
 from datetime import datetime
 from app import app, db, lm, babel
 from app.config import POSTS_PER_PAGE, LANGUAGES
-from flask import render_template, redirect, flash, url_for, request, abort
+from flask import render_template, redirect, flash, url_for, request, abort, g
 from app.forms import LoginFrom, EditForm, PostForm
 from flask_login import login_user, current_user, logout_user, login_required
 from app.models import User, Post
@@ -32,7 +32,6 @@ def index(page=1):
         return redirect(url_for('index'))
 
     posts = current_user.followed_posts().paginate(page, POSTS_PER_PAGE, False)
-
     return render_template('index.html',
                            title="努努和菜菜的后花园",
                            user=user,
@@ -222,4 +221,15 @@ def translate():
                 src, form, to)
     })
 
+    return json
+
+
+@app.route('/get_fist_post')
+@login_required
+def get_fist_post():
+    post = current_user.followed_posts().paginate(1, 1, False).items[0]
+    json = jsonify({
+        'author': post.author.nickname,
+        'body': post.body
+    })
     return json

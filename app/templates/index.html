@@ -1,5 +1,8 @@
 {% extends "base.html" %}
+
+
 {% block content %}
+
 
 
     <div style="padding-top: 10px;padding-bottom: 10px">
@@ -13,7 +16,6 @@
 						<button class="btn btn-default" type="submit">发射!</button>
 				</span>
             </div>
-
         </form>
     </div>
 
@@ -39,6 +41,24 @@
             <li class="disabled"><a>下一页 &rarr;</a></li>
         {% endif %}
     </ul>
+
+    <script>
+        function is_update() {
+            $.ajax('/get_fist_post', {dataType: 'json'})
+                    .done(function (data) {
+                        original = $('#post' +{{posts.total}}).text();
+                        originalAuthor = data['author'];
+                        newauthor = "{{ current_user.nickname }}";
+                        newpost = data['body'];
+                        if (original != newpost && originalAuthor != newauthor) {
+                            $('title').text('---有新消息啦---' + "{{ title }}");
+                            clearInterval(fader)
+                        }
+                    })
+        }
+        var fader = setInterval(is_update, 500)
+
+    </script>
 
 {% endblock %}
 
