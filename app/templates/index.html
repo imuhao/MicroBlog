@@ -2,6 +2,10 @@
 
 {% block content %}
 
+    <audio id="bgMusic">
+        <source src="../static/mp3/18.mp3" type="audio/mp3">
+    </audio>
+
     <div style="padding-top: 10px;padding-bottom: 10px">
 
         <form class="bs-example bs-example-form" role="form" action="" method="post" name="post">
@@ -47,13 +51,20 @@
                         originalAuthor = data['author'];
                         newauthor = "{{ current_user.nickname }}";
                         newpost = data['body'];
+                        console.log('new:' + newpost)
+                        console.log('ofigin:' + original)
+
                         if (original != newpost && originalAuthor != newauthor) {
                             $('title').text('---有新消息啦---' + "{{ title }}");
+                            var audio = document.getElementById("bgMusic");
+                            //播放(继续播放)
+                            audio.play();
                             clearInterval(fader)
                         }
                     })
         }
         var fader = setInterval(is_update, 500)
+
 
     </script>
 
