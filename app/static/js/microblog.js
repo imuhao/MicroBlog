@@ -46,7 +46,11 @@ function setUpTime() {
 }
 
 $(function () {
+
+
     setUpTime()
     setInterval(setUpTime, 1000)
+
+    $("[data-toggle='popover']").popover();
 });
 
