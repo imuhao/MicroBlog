@@ -4,7 +4,6 @@
     <list default="true" id="1b1efd86-5f1b-4e71-9d7b-062a4862424c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/base.html" afterPath="$PROJECT_DIR$/app/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/microblog.log" afterPath="$PROJECT_DIR$/app/tmp/microblog.log" />
     </list>
     <ignored path="microblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,8 +90,18 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5211506">
-              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.59560066">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flask/lib/python3.6/site-packages/pbr/hooks/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -228,7 +237,7 @@
     <property name="settings.editor.splitter.proportion" value="0.22815534" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="base&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/base.html&#10;css&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/static/css/style.css&#10;m&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/static/js/microblog.js&#10;style&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/static/css/style.css&#10;styl&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/static/css/style.css&#10;user&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/user.html&#10;index&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;mic&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/static/js/microblog.js&#10;mir&#9;null&#9;null&#10;mi&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/static/js/microblog.js&#10;pos&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/post.html&#10;post&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/post.html&#10;ed&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/edit.html&#10;po&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/post.html&#10;bas&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/base.html&#10;login&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/login.html&#10;view&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;base.html&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/base.html&#10;index.h&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;run&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/run.py&#10;pull&#9;ACTION&#9;Vcs.UpdateProject&#10;comm&#9;ACTION&#9;CheckinProject&#10;commit&#9;ACTION&#9;CheckinProject&#10;mo&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/momentjs.py&#10;basehtml&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/base.html&#10;tran&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/translate.py&#10;User&#9;null&#9;null&#10;vi&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;views&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;con&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/config.py&#10;__ini&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/__init__.py&#10;config&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/config.py&#10;__init&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/__init__.py&#10;momentjs&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/momentjs.py&#10;Fo&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;mode&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py&#10;Form&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;edit&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/edit.html&#10;db_crea&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/db_create.py&#10;inde&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;Post&#9;null&#9;null&#10;form&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;for&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;index.&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;r&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/run.py&#10;app&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/flask/lib/python3.6/site-packages/flask/app.py&#10;__i&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/__init__.py&#10;__in&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/flask/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py&#10;commi&#9;ACTION&#9;CheckinProject&#10;models&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py" />
+    <property name="SearchEverywhereHistoryKey" value="base.html&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/base.html&#10;base&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/flask/lib/python3.6/site-packages/pbr/hooks/base.py&#10;css&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/static/css/style.css&#10;m&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/static/js/microblog.js&#10;style&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/static/css/style.css&#10;styl&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/static/css/style.css&#10;user&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/user.html&#10;index&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;mic&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/static/js/microblog.js&#10;mir&#9;null&#9;null&#10;mi&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/static/js/microblog.js&#10;pos&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/post.html&#10;post&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/post.html&#10;ed&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/edit.html&#10;po&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/post.html&#10;bas&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/base.html&#10;login&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/login.html&#10;view&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;index.h&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;run&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/run.py&#10;pull&#9;ACTION&#9;Vcs.UpdateProject&#10;comm&#9;ACTION&#9;CheckinProject&#10;commit&#9;ACTION&#9;CheckinProject&#10;mo&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/momentjs.py&#10;basehtml&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/base.html&#10;tran&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/translate.py&#10;User&#9;null&#9;null&#10;vi&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;views&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/views.py&#10;con&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/config.py&#10;__ini&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/__init__.py&#10;config&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/config.py&#10;__init&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/__init__.py&#10;momentjs&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/momentjs.py&#10;Fo&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;mode&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py&#10;Form&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;edit&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/edit.html&#10;db_crea&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/db_create.py&#10;inde&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;Post&#9;null&#9;null&#10;form&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;for&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/forms.py&#10;index.&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/templates/index.html&#10;r&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/run.py&#10;app&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/flask/lib/python3.6/site-packages/flask/app.py&#10;__i&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/__init__.py&#10;__in&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/flask/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py&#10;commi&#9;ACTION&#9;CheckinProject&#10;models&#9;FILE&#9;file:///Users/Smile/Desktop/python/smile/microblog/app/models.py" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -567,12 +576,6 @@
       <option name="number" value="Default" />
       <updated>1511859864692</updated>
     </task>
-    <task id="LOCAL-00026" summary="add requirements.txt">
-      <created>1512453912077</created>
-      <option name="number" value="00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1512453912077</updated>
-    </task>
     <task id="LOCAL-00027" summary="add requirements.txt">
       <created>1512454204185</created>
       <option name="number" value="00027" />
@@ -861,7 +864,13 @@
       <option name="project" value="LOCAL" />
       <updated>1512977483706</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Popover">
+      <created>1512978057832</created>
+      <option name="number" value="00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1512978057832</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1205,13 +1214,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flask/lib/python3.6/site-packages/pbr/hooks/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/translate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1376,10 +1378,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/flask/lib/python3.6/site-packages/pbr/hooks/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5211506">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.59560066">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
