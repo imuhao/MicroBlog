@@ -4,12 +4,12 @@
 # @Author  : Smile
 # @Describe: 表单
 
-from flask_wtf import Form
+from flask_wtf import Form, FlaskForm
 from wtforms import StringField, BooleanField, SubmitField, TextAreaField, PasswordField
 from wtforms.validators import DataRequired, Length, Regexp
 
 
-class LoginFrom(Form):
+class LoginFrom(FlaskForm):
     nickname = StringField('nickname', validators=[DataRequired()])
     password = PasswordField('password',
                              validators=[DataRequired(message=u"Password length is 6 to 12!"), Length(6, 12)])
@@ -20,12 +20,12 @@ class LoginFrom(Form):
     register = SubmitField('Register')
 
 
-class EditForm(Form):
+class EditForm(FlaskForm):
     nickname = StringField('nickname', validators=[DataRequired()])
     email = StringField('email', validators=[DataRequired()])
     about_me = TextAreaField('about_me', validators=[Length(min=0, max=140)])
     avatar = StringField('avatar', validators=[DataRequired()])
 
 
-class PostForm(Form):
+class PostForm(FlaskForm):
     post = StringField('post', validators=[DataRequired()])

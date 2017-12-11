@@ -32,18 +32,18 @@
             <li><a href="{{ url_for('logout') }}">{{ _('Logout') }}</a></li>
         {% endif %}
 
-        <li class="menuRightLi">
-            <div>
-                <p
-                        class="label label-danger menuRight"
-                        data-container="body" data-toggle="popover" data-placement="bottom"
-                        data-content="努努么么哒~😘">
-                    Smile</p>
-            </div>
 
-        </li>
     </ul>
 
+</div>
+
+
+<div class="timeDiv">
+    <p
+            class="label label-danger menuRight"
+            data-container="body" data-toggle="popover" data-placement="bottom"
+            data-content="努努么么哒~😘">
+        Smile</p>
 </div>
 
 {% with  messages = get_flashed_messages() %}

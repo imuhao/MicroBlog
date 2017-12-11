@@ -22,11 +22,8 @@ body {
 
 .menuDiv {
     text-align: center;
+    width: 300px;
     margin-bottom: 10px;
-}
-
-.menuRightLi {
-    padding-left: 50px;
 }
 
 .menuRight {
@@ -35,6 +32,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     visibility: hidden;
+}
+
+.timeDiv {
+    position: fixed;
+    right: 10px;
+    top: 50px;
+    width: auto;
 }
 
 .message-div {
