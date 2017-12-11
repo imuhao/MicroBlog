@@ -55,8 +55,7 @@
                                 originalAuthor = data['author'];
                                 newauthor = "{{ current_user.nickname }}";
                                 newpost = data['body'];
-                                console.log('new:' + newpost + 'ofigin:' + original + 'length:' +{{posts.total}});
-
+                                {#                                console.log('new:' + newpost + 'ofigin:' + original + 'length:' +{{posts.total}});#}
                                 if (original != newpost && originalAuthor != newauthor) {
                                     $('title').text('---有新消息啦---' + "{{ title }}");
                                     var audio = document.getElementById("bgMusic");
@@ -66,7 +65,7 @@
                             }
                     )
         }
-        var fader = setInterval(is_update, 500)
+        var fader = setInterval(is_update, 1000)
 
 
     </script>
