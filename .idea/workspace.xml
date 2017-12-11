@@ -2,8 +2,232 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b1efd86-5f1b-4e71-9d7b-062a4862424c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/bin/chardetect" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/certifi-2017.11.5.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/certifi-2017.11.5.dist-info/INSTALLER" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/certifi-2017.11.5.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/certifi-2017.11.5.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/certifi-2017.11.5.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/certifi-2017.11.5.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/certifi-2017.11.5.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/certifi/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/certifi/__main__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/certifi/cacert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/certifi/core.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/certifi/old_root.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/certifi/weak.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet-3.0.4.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet-3.0.4.dist-info/INSTALLER" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet-3.0.4.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet-3.0.4.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet-3.0.4.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet-3.0.4.dist-info/entry_points.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet-3.0.4.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet-3.0.4.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/big5freq.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/big5prober.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/chardistribution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/charsetgroupprober.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/charsetprober.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/cli/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/cli/chardetect.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/codingstatemachine.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/compat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/cp949prober.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/enums.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/escprober.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/escsm.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/eucjpprober.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/euckrfreq.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/euckrprober.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/euctwfreq.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/euctwprober.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/gb2312freq.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/gb2312prober.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/hebrewprober.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/jisfreq.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/jpcntx.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/langbulgarianmodel.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/langcyrillicmodel.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/langgreekmodel.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/langhebrewmodel.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/langhungarianmodel.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/langthaimodel.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/langturkishmodel.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/latin1prober.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/mbcharsetprober.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/mbcsgroupprober.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/mbcssm.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/sbcharsetprober.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/sbcsgroupprober.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/sjisprober.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/universaldetector.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/utf8prober.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/chardet/version.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/easy-install.pth" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/__main__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/console_mode.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/af.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/ar.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/az.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/bg.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/ca.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/ceb.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/cs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/cy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/da.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/de.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/en.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/eo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/es.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/et.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/eu.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/fa.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/fi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/fr.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/ha.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/haw.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/hi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/hr.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/hu.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/id.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/is.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/it.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/kk.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/ky.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/la.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/lt.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/lv.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/mk.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/mn.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/nb.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/ne.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/nl.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/nr.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/nso.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/pl.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/ps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/pt.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/pt_br.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/pt_pt.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/ro.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/ru.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/sk.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/sl.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/so.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/sq.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/sr.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/ss.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/st.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/sv.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/sw.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/tl.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/tlh.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/tn.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/tr.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/ts.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/uk.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/ur.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/uz.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/ve.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/vi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/xh.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language/data/models/zu.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language_spirit-0.5.3.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language_spirit-0.5.3.dist-info/INSTALLER" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language_spirit-0.5.3.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language_spirit-0.5.3.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language_spirit-0.5.3.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language_spirit-0.5.3.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/guess_language_spirit-0.5.3.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/idna-2.6.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/idna-2.6.dist-info/INSTALLER" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/idna-2.6.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/idna-2.6.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/idna-2.6.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/idna-2.6.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/idna-2.6.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/idna/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/idna/codec.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/idna/compat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/idna/core.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/idna/idnadata.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/idna/intranges.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/idna/package_data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/idna/uts46data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests-2.18.4.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests-2.18.4.dist-info/INSTALLER" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests-2.18.4.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests-2.18.4.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests-2.18.4.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests-2.18.4.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests-2.18.4.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests/__version__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests/_internal_utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests/adapters.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests/api.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests/auth.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests/certs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests/compat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests/cookies.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests/exceptions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests/help.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests/hooks.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests/packages.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests/sessions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests/status_codes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests/structures.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/requests/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3-1.22.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3-1.22.dist-info/INSTALLER" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3-1.22.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3-1.22.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3-1.22.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3-1.22.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3-1.22.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/_collections.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/connection.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/connectionpool.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/contrib/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/contrib/_securetransport/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/contrib/_securetransport/bindings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/contrib/_securetransport/low_level.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/contrib/appengine.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/contrib/ntlmpool.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/contrib/securetransport.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/contrib/socks.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/exceptions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/fields.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/filepost.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/packages/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/packages/backports/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/packages/backports/makefile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/packages/ordered_dict.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/packages/six.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/packages/ssl_match_hostname/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/packages/ssl_match_hostname/_implementation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/poolmanager.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/request.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/response.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/util/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/util/connection.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/util/request.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/util/response.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/util/retry.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/util/selectors.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/util/ssl_.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/util/timeout.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/util/url.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask/lib/python3.6/site-packages/urllib3/util/wait.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/user.html" afterPath="$PROJECT_DIR$/app/templates/user.html" />
     </list>
     <ignored path="microblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,64 +279,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="129" column="25" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.7749196">
+              <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
               <folding>
                 <element signature="e#114#143#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.935484">
-              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.096774">
-              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/post.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.612904">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/edit.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.32258">
-              <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/templates/user.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53130287">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -592,12 +766,6 @@
       <option name="number" value="Default" />
       <updated>1511859864692</updated>
     </task>
-    <task id="LOCAL-00029" summary="deploy for service">
-      <created>1512456036706</created>
-      <option name="number" value="00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1512456036706</updated>
-    </task>
     <task id="LOCAL-00030" summary="deploy for service">
       <created>1512456142205</created>
       <option name="number" value="00030" />
@@ -886,7 +1054,13 @@
       <option name="project" value="LOCAL" />
       <updated>1512978652676</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="format">
+      <created>1512978766327</created>
+      <option name="number" value="00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1512978766327</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1368,16 +1542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="129" column="25" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
-          <folding>
-            <element signature="e#114#143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.935484">
@@ -1412,9 +1576,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53130287">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state vertical-scroll-proportion="-29.806452">
+          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7749196">
+          <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+          <folding>
+            <element signature="e#114#143#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
