@@ -27,7 +27,7 @@ def index(page=1):
         post = Post(form.post.data, user, datetime.utcnow())
         db.session.add(post)
         db.session.commit()
-        flash(gettext("Your post is now live !"))
+        flash(gettext("发射成功!"))
 
         return redirect(url_for('index'))
 

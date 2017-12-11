@@ -26,10 +26,10 @@
 
 <div class="menuDiv">
     <ul class="nav nav-pills" id="ulList">
-        <li class="active"><a href="/">{{ _('Home') }} </a></li>
+        <li class="active"><a href="/">小屋 </a></li>
         {% if current_user.is_authenticated %}
-            <li><a href="{{ url_for('user',nickname=current_user.nickname ) }}">{{ _('Your Proofile') }}</a></li>
-            <li><a href="{{ url_for('logout') }}">{{ _('Logout') }}</a></li>
+            <li><a href="{{ url_for('user',nickname=current_user.nickname ) }}">资料</a></li>
+            <li><a href="{{ url_for('logout') }}">退出</a></li>
         {% endif %}
 
 

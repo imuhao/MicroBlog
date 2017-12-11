@@ -3,6 +3,7 @@
         <td><img class="authorImg img-responsive img-rounded" src="{{ post.author.avatar }} " width="80" height="80">
         </td>
         <td>
+            <br>
             <b>{{ post.author.nickname }} </b>
             <br>
             <font size="2px" color="#a9a9a9"> {{ momentjs(post.timestamp).fromNow() }}</font>
@@ -12,6 +13,7 @@
         </td>
 
         <th>
+            <br>
             <div>
                 <span id="translation{{ post.id }}">
                     <a class="btn btn-primary btn-xs" href="javascript:translate('#post{{ post.id }}')">翻译</a>
