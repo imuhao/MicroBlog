@@ -48,25 +48,25 @@
 
     <script>
         function is_update() {
-            $.ajax('/get_fist_post', {dataType: 'json'})
-                    .done(function (data) {
-                                {#                                original = $('#post' +{{posts.total}}).text();#}
-                                original = "{{ posts.items[0].body }}"
-                                originalAuthor = data['author'];
-                                newauthor = "{{ current_user.nickname }}";
-                                newpost = data['body'];
-                                {#                                console.log('new:' + newpost + 'ofigin:' + original + 'length:' +{{posts.total}});#}
-                                if (original != newpost && originalAuthor != newauthor) {
-                                    $('title').text('---有新消息啦---' + "{{ title }}");
-                                    var audio = document.getElementById("bgMusic");
-                                    audio.play();
-                                    clearInterval(fader)
+            var urls = trimSpace(window.location.href.split('/'));
+            if (urls[urls.length - 1].indexOf(window.document.domain) >= 0) {
+                $.ajax('/get_fist_post', {dataType: 'json'})
+                        .done(function (data) {
+                                    original = "{{ posts.items[0].body }}"
+                                    originalAuthor = data['author'];
+                                    newauthor = "{{ current_user.nickname }}";
+                                    newpost = data['body'];
+                                    if (original != newpost && originalAuthor != newauthor) {
+                                        $('title').text('---有新消息啦---' + "{{ title }}");
+                                        var audio = document.getElementById("bgMusic");
+                                        audio.play();
+                                        clearInterval(fader)
+                                    }
                                 }
-                            }
-                    )
+                        )
+            }
         }
         var fader = setInterval(is_update, 1000)
-
 
     </script>
 

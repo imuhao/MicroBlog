@@ -58,3 +58,11 @@ body {
     font-size: 11px;
     text-decoration: none;
 }
+
+.userDiv {
+    border-width: 2px;
+    border-style: groove;
+    border-color: #79bbff;
+    width: 340px;
+}
+

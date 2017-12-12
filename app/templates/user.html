@@ -3,7 +3,25 @@
 
     <br/>
 
-    <table>
+    <div class="userDiv">
+        <img style="float: left" class="authorImg img-responsive img-rounded" src="{{ user.avatar }}" width="100"
+             height="100">
+
+        <br/>
+        <b>User: {{ user.nickname }}</b><br/>
+        {% if user.about_me %}{{ user.about_me }}{% endif %}<br/><br/>
+
+        {% if user.last_seen %}
+            Lase seen on {{ momentjs(user.last_seen).calendar() }}{% endif %}
+        {% if user.id==current_user.id %}
+            <p><a href="{{ url_for('edit') }}">Edit</a></p>
+        {% elif not current_user.is_following(user) %}
+            <p><a href="{{ url_for('follow',nickname = user.nickname) }}">Follow</a></p>
+        {% else %}
+            <p><a href="{{ url_for('unfollow',nickname=user.nickname) }}">UnFollow</a></p>
+        {% endif %}
+    </div>
+    {#<table style="display: none">
         <tr valign="top">
             <td>
                 <img class="authorImg img-responsive img-rounded" src="{{ user.avatar }}" width="100" height="100"></td>
@@ -25,7 +43,7 @@
             </td>
         </tr>
     </table>
-
+#}
     <hr>
     {% for post in posts.items %}
         {% include 'post.html' %}
