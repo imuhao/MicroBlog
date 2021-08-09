@@ -13,7 +13,7 @@ Flask==0.12.2
 Flask-Login==0.4.1
 Flask-Script==2.0.5
 Flask-WTF==0.14.2
-Glances==2.9.1
+Glances==3.2.1
 html5lib==0.999999999
 idna==2.5
 image==1.5.7
