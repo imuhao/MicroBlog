@@ -1,7 +1,7 @@
 beautifulsoup4==4.6.0
 boto==2.47.0
 bz2file==0.98
-certifi==2017.4.17
+certifi==2022.12.7
 chardet==3.0.3
 click==6.7
 configparser==3.5.0
